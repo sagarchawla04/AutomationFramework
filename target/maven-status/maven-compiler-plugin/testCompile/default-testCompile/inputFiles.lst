@@ -1,3 +1,7 @@
 D:\AutomationFramework\AutomationFramework\src\test\java\TestRunner\TestRun.java
 D:\AutomationFramework\AutomationFramework\src\test\java\pageObjects\LoginPage.java
+D:\AutomationFramework\AutomationFramework\src\test\java\stepDefinitions\BaseClass.java
+D:\AutomationFramework\AutomationFramework\src\test\java\pageObjects\AddCustomerPage.java
 D:\AutomationFramework\AutomationFramework\src\test\java\stepDefinitions\Steps.java
+D:\AutomationFramework\AutomationFramework\src\test\java\utilities\WaitHelper.java
+D:\AutomationFramework\AutomationFramework\src\test\java\pageObjects\SearchCustomerPage.java

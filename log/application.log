@@ -1,0 +1,51 @@
+2020-04-19 15:10:13,146 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-19 15:10:13,206 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-19 15:10:17,696 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-19 15:10:18,203 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-19 15:15:26,354 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-19 15:15:26,404 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-19 15:15:35,149 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-19 15:15:35,594 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-19 15:15:51,628 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-19 15:15:51,643 [main] INFO nopCommerce - ***********************Logout button clicked****************************
+2020-04-19 15:21:25,150 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-19 15:21:25,416 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-19 15:21:31,566 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-19 15:21:32,117 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-19 15:21:45,946 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-19 15:21:45,959 [main] INFO nopCommerce - ***********************Logout button clicked****************************
+2020-04-19 16:59:05,945 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-19 16:59:06,020 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-19 16:59:11,111 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-19 16:59:11,584 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-19 18:18:38,776 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-19 18:18:38,842 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-19 18:18:43,106 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-19 18:18:43,559 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-19 18:18:54,745 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-19 18:18:54,758 [main] INFO nopCommerce - ***********************Logout button clicked****************************
+2020-04-19 18:19:03,238 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-19 18:19:03,254 [main] INFO nopCommerce - ***********************Closing browser****************************
+2020-04-19 18:19:06,957 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-19 18:19:06,960 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-19 18:19:12,931 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-19 18:19:13,412 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-19 18:19:27,340 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-19 18:19:27,352 [main] INFO nopCommerce - ***********************Logout button clicked****************************
+2020-04-19 18:19:32,867 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-19 18:19:32,880 [main] INFO nopCommerce - ***********************Closing browser****************************
+2020-04-19 18:19:36,568 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-19 18:19:36,570 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-19 18:19:41,012 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-19 18:19:41,463 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-19 18:19:48,862 [main] INFO nopCommerce - ***********************Login failed****************************
+2020-04-19 18:38:27,586 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-19 18:38:27,639 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-19 18:38:35,614 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-19 18:38:36,178 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-19 18:38:49,023 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-19 18:38:49,038 [main] INFO nopCommerce - ***********************Logout button clicked****************************
+2020-04-19 18:38:57,377 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-19 18:38:57,390 [main] INFO nopCommerce - ***********************Closing browser****************************
+2020-04-19 18:39:01,169 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-19 18:39:01,174 [main] INFO nopCommerce - ***********************Opening URL****************************

@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestRunner.TestRun
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 1.152 sec
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 206.392 sec <<< FAILURE!
+Login Data Driven(Login to application)  Time elapsed: 14.088 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinitions.Steps.page_Title_should_be(Steps.java:46)
+	at ?.Page Title should be "Dashboard / nopCommerce administration"(file:///D:/AutomationFramework/AutomationFramework/./Features/Login.feature:18)
+
