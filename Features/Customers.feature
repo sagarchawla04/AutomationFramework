@@ -7,7 +7,7 @@ Background: Below  are some common steps for all test cases in this feature file
 	And Click on Login 
 	Then User can view Dashboad 
 	
-@sanity	
+@regression	
 Scenario: Add a new Customer 
 	When User click on customers Menu 
 	And click on customers Menu Item 

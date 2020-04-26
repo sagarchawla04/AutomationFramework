@@ -10,7 +10,10 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.PageLoadStrategy;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
@@ -25,50 +28,17 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import pageObjects.AddCustomerPage;
 import pageObjects.LoginPage;
 import pageObjects.SearchCustomerPage;
+import utilities.PageActions;
 
 public class Steps extends BaseClass {
 
 	// Hook- Will be executed once before every TC
 	@Before
 	public void setup() throws IOException {
-		
-		logger = Logger.getLogger("nopCommerce"); // Added Logger
-		PropertyConfigurator.configure("log4j.properties"); // Added Logger
-		logger.setLevel(Level.DEBUG);
-
-		// Reading properties
-		configProp = new Properties();
-		FileInputStream configPropFile = new FileInputStream("config.properties");
-		configProp.load(configPropFile);
-
-		String browser = configProp.getProperty("browser");
-		// Launching browser
-		if (browser.equals("firefox")) {
-			System.setProperty("webdriver.gecko.driver", configProp.getProperty("firefoxpath"));
-			driver = new FirefoxDriver();
-		}
-
-		else if (browser.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", configProp.getProperty("chromepath"));
-			driver = new ChromeDriver();
-		}
-
-		else if (browser.equals("ie")) {
-			System.setProperty("webdriver.ie.driver", configProp.getProperty("iepath"));
-			driver = new InternetExplorerDriver();
-		}
-		logger.info("***********************Launching browser****************************");
-		
-		/*
-		 * Used for Webdriver manager and suppress logging org.apache.log4j.Logger
-		 * logger4j = org.apache.log4j.Logger.getRootLogger();
-		 * logger4j.setLevel(org.apache.log4j.Level.toLevel("INFO"));
-		 * 
-		 * System.setProperty("webdriver.chrome.silentOutput", "true");
-		 * 
-		 * WebDriverManager.chromedriver().setup(); driver = new ChromeDriver();
-		 */
-		
+		pageActions = new PageActions(driver);
+		pageActions.LoadProperties();
+		pageActions.SetLoggerConfiguration();
+		driver = pageActions.launchBrowser();
 	}
 
 	@Given("User Launch Chrome browser")
@@ -78,66 +48,52 @@ public class Steps extends BaseClass {
 
 	@When("User opens URL {string}")
 	public void user_opens_URL(String url) {
-		logger.info("***********************Opening URL****************************");
-		driver.get(url);
-		driver.manage().window().maximize();
+		lp.launchURL(url);
 	}
 
 	@When("User enters Email as {string} and Password as {string}")
-	public void user_enters_Email_as_and_Password_as(String email, String password) {
-		logger.info("***********************Providing login details****************************");
+	public void user_enters_Email_as_and_Password_as(String email, String password) throws InterruptedException {
 		lp.setUserName(email);
 		lp.setPassword(password);
 	}
 
 	@When("Click on Login")
 	public void click_on_Login() throws InterruptedException {
-		logger.info("***********************Started login process****************************");
 		lp.clickLogin();
 	}
 
 	@Then("Page Title should be {string}")
 	public void page_Title_should_be(String pagetitle) {
-		if (driver.getPageSource().contains("Login was unsuccessful")) {
-			driver.close();
-			logger.info("***********************Login failed****************************");
-			Assert.assertTrue(false);
-		} else {
-			logger.info("***********************Login passed****************************");
-			Assert.assertEquals(pagetitle, driver.getTitle());
-		}
+		lp.verifyPageTitle(pagetitle);
 	}
 
 	@When("User click on Log out link")
 	public void user_click_on_Log_out_link() throws InterruptedException {
-		logger.info("***********************Logout button clicked****************************");
 		lp.clickLogout();
 		Thread.sleep(3000);
 	}
 
 	@Then("close browser")
 	public void close_browser() {
-		logger.info("***********************Closing browser****************************");
 		driver.quit();
 	}
 
 	// Customer feature step definitions
 
 	@Then("User can view Dashboad")
-	public void user_can_view_Dashboad() {
+	public void user_can_view_Dashboad() throws InterruptedException {
 		addCust = new AddCustomerPage(driver);
+		addCust.verifylogin();
 		Assert.assertEquals("Dashboard / nopCommerce administration", addCust.getPageTitle());
 	}
 
 	@When("User click on customers Menu")
 	public void user_click_on_customers_Menu() throws InterruptedException {
-		Thread.sleep(3000);
 		addCust.clickOnCustomersMenu();
 	}
 
 	@When("click on customers Menu Item")
 	public void click_on_customers_Menu_Item() throws InterruptedException {
-		Thread.sleep(2000);
 		addCust.clickOnCustomersMenuItem();
 	}
 

@@ -49,3 +49,749 @@
 2020-04-19 18:38:57,390 [main] INFO nopCommerce - ***********************Closing browser****************************
 2020-04-19 18:39:01,169 [main] INFO nopCommerce - ***********************Launching browser****************************
 2020-04-19 18:39:01,174 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-19 22:26:01,350 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-19 22:26:01,577 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-19 22:26:06,607 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-19 22:26:07,229 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-19 22:26:35,934 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-19 22:26:36,026 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-19 22:26:41,369 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-19 22:26:41,820 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-19 22:29:58,506 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-19 22:29:58,620 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-19 22:30:03,469 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-19 22:30:03,945 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-19 22:42:53,823 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-19 22:42:53,935 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-19 22:43:00,679 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-19 22:43:01,158 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-19 22:43:58,847 [main] INFO nopCommerce - ***********************Closing browser****************************
+2020-04-19 22:44:02,566 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-19 22:44:02,572 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-19 22:44:10,425 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-19 22:44:10,938 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-19 22:44:29,901 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-19 22:44:29,912 [main] INFO nopCommerce - ***********************Logout button clicked****************************
+2020-04-19 22:44:43,473 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-19 22:44:43,485 [main] INFO nopCommerce - ***********************Closing browser****************************
+2020-04-19 22:48:45,589 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-19 22:48:45,638 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-19 22:48:50,618 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-19 22:48:51,033 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-19 22:49:05,379 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-19 22:49:05,386 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-19 22:49:45,865 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-19 22:49:45,919 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-19 22:49:50,595 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-19 22:49:51,041 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-19 22:50:13,092 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-19 22:50:13,098 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-22 18:30:19,548 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-22 18:30:19,715 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-22 18:30:45,822 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-22 18:30:46,384 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-22 19:05:45,887 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-22 19:05:46,051 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-22 19:05:59,953 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-22 19:06:00,460 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-22 19:08:09,578 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-22 19:08:09,657 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-22 19:08:21,373 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-22 19:08:21,829 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-22 19:09:24,910 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-22 19:09:24,924 [main] INFO nopCommerce - ***********************Logout button clicked****************************
+2020-04-22 19:09:39,531 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-22 19:09:39,544 [main] INFO nopCommerce - ***********************Closing browser****************************
+2020-04-22 19:11:37,770 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-22 19:11:37,818 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-22 19:11:47,604 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-22 19:11:48,057 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-22 19:12:18,256 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-22 19:12:18,271 [main] INFO nopCommerce - ***********************Logout button clicked****************************
+2020-04-22 19:12:27,362 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-22 19:12:27,381 [main] INFO nopCommerce - ***********************Closing browser****************************
+2020-04-22 20:39:11,686 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-22 20:39:11,948 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-22 20:44:05,074 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-22 20:44:05,131 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-22 20:44:16,667 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-22 20:44:21,095 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-22 20:45:12,758 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-22 20:45:12,790 [main] INFO nopCommerce - ***********************Logout button clicked****************************
+2020-04-22 20:45:23,977 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-22 20:45:23,990 [main] INFO nopCommerce - ***********************Closing browser****************************
+2020-04-22 20:50:41,301 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-22 20:50:41,385 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-22 20:50:42,627 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-22 20:55:43,884 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-22 20:55:44,503 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-22 20:55:45,678 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-22 20:57:49,334 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-22 20:57:49,450 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-22 20:57:50,594 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-22 21:00:41,662 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-22 21:00:41,794 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-22 21:00:42,997 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-22 21:06:30,683 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-22 21:06:31,132 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-22 21:06:32,416 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-22 21:06:38,371 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-22 21:22:24,345 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-22 21:22:24,469 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-22 21:22:25,624 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-22 21:22:41,688 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-22 21:22:48,907 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-24 18:44:46,941 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-24 18:44:47,177 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-24 18:44:48,392 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-24 18:45:03,504 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-24 18:54:10,772 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-24 18:54:11,218 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-24 18:54:12,417 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-24 18:54:24,454 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-24 18:54:29,956 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-24 18:54:29,981 [main] INFO nopCommerce - ***********************Logout button clicked****************************
+2020-04-24 19:03:47,219 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-24 19:03:47,419 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-24 19:03:48,583 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-24 19:03:53,554 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-24 19:03:58,701 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-24 19:03:58,717 [main] INFO nopCommerce - ***********************Logout button clicked****************************
+2020-04-24 19:07:30,054 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-24 19:07:30,316 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-24 19:07:31,505 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-24 19:07:37,620 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-24 19:13:07,204 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-24 19:13:07,617 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-24 19:13:08,813 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-24 19:13:13,233 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-24 19:13:19,659 [main] INFO nopCommerce - ***********************Login failed****************************
+2020-04-24 19:15:25,028 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-24 19:15:25,091 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-24 19:15:26,263 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-24 19:15:31,034 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-24 19:15:40,009 [main] INFO nopCommerce - *** Title is 
+2020-04-24 19:15:40,023 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-24 19:15:40,027 [main] INFO nopCommerce - ***********************Logout button clicked****************************
+2020-04-24 19:21:52,264 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-24 19:21:52,557 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-24 19:21:53,767 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-24 19:21:58,936 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-24 19:22:06,990 [main] INFO nopCommerce - *** Title is 
+2020-04-24 19:22:07,041 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-24 19:22:07,047 [main] INFO nopCommerce - ***********************Logout button clicked****************************
+2020-04-24 19:25:52,585 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-24 19:25:52,648 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-24 19:25:53,814 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-24 19:25:58,607 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-24 19:26:03,755 [main] INFO nopCommerce - *** Title is Dashboard / nopCommerce administration
+2020-04-24 19:26:03,769 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-24 19:26:03,773 [main] INFO nopCommerce - ***********************Logout button clicked****************************
+2020-04-24 19:26:07,913 [main] INFO nopCommerce - *** Title is Your store. Login
+2020-04-24 19:26:07,926 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-24 19:26:07,931 [main] INFO nopCommerce - ***********************Closing browser****************************
+2020-04-24 19:28:13,676 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-24 19:28:13,732 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-24 19:28:14,883 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-24 19:28:16,736 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-24 19:28:21,871 [main] INFO nopCommerce - *** Title is Dashboard / nopCommerce administration
+2020-04-24 19:28:21,877 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-24 19:28:21,879 [main] INFO nopCommerce - ***********************Logout button clicked****************************
+2020-04-24 19:28:31,287 [main] INFO nopCommerce - *** Title is 
+2020-04-24 19:28:31,337 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-24 19:28:31,339 [main] INFO nopCommerce - ***********************Closing browser****************************
+2020-04-25 11:31:16,259 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-25 11:31:16,729 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-25 11:31:17,942 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-25 11:31:21,400 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-25 11:31:26,570 [main] INFO nopCommerce - *** Title is Dashboard / nopCommerce administration
+2020-04-25 11:31:26,580 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-25 11:31:26,585 [main] INFO nopCommerce - ***********************Logout button clicked****************************
+2020-04-25 11:31:32,241 [main] INFO nopCommerce - *** Title is 
+2020-04-25 11:31:32,264 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-25 11:31:32,269 [main] INFO nopCommerce - ***********************Closing browser****************************
+2020-04-25 15:51:17,311 [main] INFO stepDefinitions.Hooks - Browser launched : chrome
+2020-04-25 15:56:55,886 [main] INFO stepDefinitions.Hooks - Browser launched : chrome
+2020-04-25 15:58:01,454 [main] INFO stepDefinitions.Hooks - Browser launched : chrome
+2020-04-25 16:12:55,079 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-25 16:25:00,295 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-25 16:25:00,453 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-25 16:25:01,633 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-25 16:26:49,869 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-25 16:26:50,047 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-25 16:26:51,225 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-25 16:26:56,703 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-25 16:27:02,002 [main] INFO nopCommerce - *** Title is Dashboard / nopCommerce administration
+2020-04-25 16:27:02,014 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-25 16:27:02,017 [main] INFO nopCommerce - ***********************Logout button clicked****************************
+2020-04-25 16:27:08,405 [main] INFO nopCommerce - *** Title is 
+2020-04-25 16:27:08,420 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-25 16:31:36,169 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-25 16:31:36,221 [main] INFO utilities.PageActions - ***********************Opening URL****************************
+2020-04-25 16:37:07,647 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-25 16:37:07,823 [main] INFO utilities.PageActions - ***********************Opening URL****************************
+2020-04-25 16:40:20,039 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-25 16:40:21,332 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-25 16:40:21,334 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-25 16:44:09,689 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-25 16:44:10,952 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-25 16:44:10,954 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-25 16:45:23,372 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-25 16:45:25,169 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-25 16:45:25,184 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-25 16:46:21,125 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-25 16:46:22,650 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-25 16:46:22,655 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-25 16:48:22,511 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-25 16:48:23,985 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-25 16:48:23,988 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-25 16:49:47,303 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-25 16:49:48,546 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-25 16:49:48,548 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-25 16:55:26,713 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-25 16:55:28,026 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-25 16:55:28,031 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-25 16:56:44,434 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-25 16:56:45,670 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-25 16:56:45,676 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-25 16:58:45,866 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-25 16:58:47,191 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-25 16:58:47,194 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-25 17:03:38,211 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-25 17:03:39,579 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-25 17:03:39,583 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-25 17:34:41,681 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-25 17:34:42,945 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-25 17:34:42,948 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-25 17:37:32,065 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-25 17:37:33,295 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-25 17:37:33,297 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-25 17:37:35,758 [main] INFO utilities.PageActions - Text admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (99ae827f86288d95f2ba61d7134ce9a8)] -> id: Email]
+2020-04-25 17:37:36,247 [main] INFO utilities.PageActions - ***********************Started login process****************************
+2020-04-25 17:37:41,399 [main] INFO utilities.PageActions - *** Title is Dashboard / nopCommerce administration
+2020-04-25 17:37:41,414 [main] INFO utilities.PageActions - ***********************Login passed****************************
+2020-04-25 17:37:41,423 [main] INFO utilities.PageActions - ***********************Logout button clicked****************************
+2020-04-25 17:37:50,605 [main] INFO utilities.PageActions - *** Title is 
+2020-04-25 17:37:50,650 [main] INFO utilities.PageActions - ***********************Login passed****************************
+2020-04-25 17:43:14,666 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-25 17:43:15,890 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-25 17:43:15,894 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-25 23:56:17,383 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-25 23:56:18,673 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-25 23:56:18,676 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-25 23:57:20,294 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-25 23:57:21,653 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-25 23:57:21,657 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-26 00:00:37,130 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 00:00:39,140 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 00:00:39,143 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-26 00:03:18,494 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 00:03:20,274 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 00:03:20,280 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-26 00:05:20,433 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 00:05:21,920 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 00:05:21,924 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-26 00:09:24,641 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 00:09:25,963 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 00:09:25,966 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-26 00:10:17,191 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 00:10:18,513 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 00:10:18,523 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-26 00:10:29,044 [main] INFO utilities.PageActions - Text admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (c45e8a07a5c949320af0886f4be42246)] -> xpath: //input[@class='email']]
+2020-04-26 00:10:39,252 [main] INFO utilities.PageActions - Text admin entered in [[ChromeDriver: chrome on WINDOWS (c45e8a07a5c949320af0886f4be42246)] -> id: Password]
+2020-04-26 00:10:39,254 [main] INFO utilities.PageActions - ***********************Started login process****************************
+2020-04-26 00:13:02,432 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 00:13:03,935 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 00:13:03,939 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-26 00:16:21,505 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 00:16:22,806 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 00:16:22,811 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-26 00:18:32,461 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 00:18:33,751 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 00:18:33,753 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-26 00:20:29,390 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 00:20:30,748 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 00:20:30,750 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-26 00:24:21,112 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 00:24:22,457 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 00:24:22,462 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-26 00:26:54,021 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 00:26:55,576 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 00:26:55,578 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-26 00:35:37,440 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 00:35:39,277 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 00:35:39,279 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-26 00:38:46,979 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 00:41:35,671 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 00:41:36,907 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 00:41:36,912 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-26 00:45:32,212 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 00:45:33,512 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 00:45:33,514 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-26 00:50:30,463 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 00:56:44,331 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 01:01:22,727 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 09:32:48,230 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 09:36:54,761 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 09:49:06,303 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 09:49:09,040 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 09:51:19,218 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 09:59:05,474 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 10:03:46,797 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 10:07:26,400 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 10:07:28,196 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 10:10:59,192 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 10:18:33,034 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-26 10:18:33,132 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-26 10:18:34,310 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-26 10:18:38,970 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-26 10:18:44,830 [main] INFO nopCommerce - *** Title is 
+2020-04-26 10:18:44,853 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-26 10:18:44,855 [main] INFO nopCommerce - ***********************Logout button clicked****************************
+2020-04-26 10:20:46,086 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-26 10:20:46,139 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-26 10:20:47,329 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-26 10:20:54,719 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-26 10:20:59,855 [main] INFO nopCommerce - *** Title is Dashboard / nopCommerce administration
+2020-04-26 10:20:59,863 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-26 10:20:59,865 [main] INFO nopCommerce - ***********************Logout button clicked****************************
+2020-04-26 10:21:06,927 [main] INFO nopCommerce - *** Title is 
+2020-04-26 10:21:06,977 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-26 10:21:06,982 [main] INFO nopCommerce - ***********************Closing browser****************************
+2020-04-26 10:25:47,856 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-26 10:25:47,966 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-26 10:25:49,163 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-26 10:29:21,532 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-26 10:29:21,826 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-26 10:29:23,022 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-26 10:32:04,463 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-26 10:32:04,518 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-26 10:32:05,693 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-26 10:34:05,868 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-26 10:34:05,974 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-26 10:34:07,168 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-26 10:36:15,809 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-26 10:36:15,921 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-26 10:36:17,112 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-26 10:37:15,145 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-26 10:37:15,518 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-26 10:37:16,693 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-26 10:45:07,909 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-26 10:45:08,006 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-26 10:45:09,188 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-26 10:47:08,519 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-26 10:47:09,219 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-26 10:47:10,422 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-26 10:49:06,663 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-26 10:49:06,752 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-26 10:49:07,947 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-26 10:50:28,653 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-26 10:50:28,747 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-26 10:50:29,933 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-26 10:50:45,325 [main] INFO nopCommerce - Text admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (7928ff80dfca789d46220cde899ee40d)] -> xpath: //input[@class='email']]
+2020-04-26 10:50:45,623 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-26 10:50:51,030 [main] INFO nopCommerce - *** Title is 
+2020-04-26 10:50:51,074 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-26 10:50:51,076 [main] INFO nopCommerce - ***********************Logout button clicked****************************
+2020-04-26 10:50:56,378 [main] INFO nopCommerce - *** Title is 
+2020-04-26 10:50:56,428 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-26 10:50:56,430 [main] INFO nopCommerce - ***********************Closing browser****************************
+2020-04-26 10:59:51,312 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-26 10:59:51,373 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-26 10:59:52,539 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-26 10:59:55,664 [main] INFO nopCommerce - Text admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (bfa21acf2d1b8ca7377e9bda1c7db9eb)] -> xpath: //input[@class='email']]
+2020-04-26 10:59:55,923 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-26 11:00:01,609 [main] INFO nopCommerce - *** Title is 
+2020-04-26 11:00:01,631 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-26 11:00:01,634 [main] INFO nopCommerce - ***********************Logout button clicked****************************
+2020-04-26 12:32:27,159 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-26 12:32:27,461 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-26 12:32:28,875 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-26 12:32:35,384 [main] INFO nopCommerce - Text admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (0d29567b83cb4c995e8880962ace42bb)] -> xpath: //input[@class='email']]
+2020-04-26 12:32:35,620 [main] INFO nopCommerce - Text admin entered in [[ChromeDriver: chrome on WINDOWS (0d29567b83cb4c995e8880962ace42bb)] -> id: Password]
+2020-04-26 12:32:35,621 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-26 12:34:24,036 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-26 12:34:24,353 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-26 12:34:25,548 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-26 12:34:28,372 [main] INFO nopCommerce - Text admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (3a5de60eb292664a92561914eb2a7321)] -> xpath: //input[@class='email']]
+2020-04-26 12:34:28,595 [main] INFO nopCommerce - Text admin entered in [[ChromeDriver: chrome on WINDOWS (3a5de60eb292664a92561914eb2a7321)] -> id: Password]
+2020-04-26 12:34:28,597 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-26 12:35:33,452 [main] INFO nopCommerce - ***********************Launching browser****************************
+2020-04-26 12:35:33,576 [main] INFO nopCommerce - ***********************Opening URL****************************
+2020-04-26 12:35:34,756 [main] INFO nopCommerce - ***********************Providing login details****************************
+2020-04-26 12:35:37,304 [main] INFO nopCommerce - Text admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (1d073fab26dbf39a1c23508c8273e30d)] -> xpath: //input[@class='email']]
+2020-04-26 12:35:37,540 [main] INFO nopCommerce - Text admin entered in [[ChromeDriver: chrome on WINDOWS (1d073fab26dbf39a1c23508c8273e30d)] -> id: Password]
+2020-04-26 12:35:37,543 [main] INFO nopCommerce - ***********************Started login process****************************
+2020-04-26 12:35:37,703 [main] INFO nopCommerce - Element clicked : [[ChromeDriver: chrome on WINDOWS (1d073fab26dbf39a1c23508c8273e30d)] -> xpath: //input[@value='Log in']]
+2020-04-26 12:35:41,903 [main] INFO nopCommerce - *** Title is 
+2020-04-26 12:35:41,938 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-26 12:35:41,940 [main] INFO nopCommerce - ***********************Logout button clicked****************************
+2020-04-26 12:35:46,798 [main] INFO nopCommerce - Element [[ChromeDriver: chrome on WINDOWS (1d073fab26dbf39a1c23508c8273e30d)] -> css selector: a[href*='logout']] clicked using javascript executor
+2020-04-26 12:35:51,395 [main] INFO nopCommerce - *** Title is 
+2020-04-26 12:35:51,454 [main] INFO nopCommerce - ***********************Login passed****************************
+2020-04-26 12:35:51,458 [main] INFO nopCommerce - ***********************Closing browser****************************
+2020-04-26 12:38:39,449 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 12:38:39,501 [main] INFO utilities.PageActions - ***********************Opening URL****************************
+2020-04-26 12:39:15,284 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 12:39:15,618 [main] INFO utilities.PageActions - ***********************Opening URL****************************
+2020-04-26 12:39:17,115 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-26 12:39:19,830 [main] INFO utilities.PageActions - Text admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (770137ef45aef61871cbc05c0fd16af2)] -> xpath: //input[@class='email']]
+2020-04-26 12:39:20,076 [main] INFO utilities.PageActions - Text admin entered in [[ChromeDriver: chrome on WINDOWS (770137ef45aef61871cbc05c0fd16af2)] -> id: Password]
+2020-04-26 12:39:20,078 [main] INFO utilities.PageActions - ***********************Started login process****************************
+2020-04-26 12:39:20,227 [main] INFO utilities.PageActions - Element clicked : [[ChromeDriver: chrome on WINDOWS (770137ef45aef61871cbc05c0fd16af2)] -> xpath: //input[@value='Log in']]
+2020-04-26 12:39:25,586 [main] INFO utilities.PageActions - *** Title is 
+2020-04-26 12:39:25,605 [main] INFO utilities.PageActions - ***********************Login passed****************************
+2020-04-26 12:39:25,608 [main] INFO utilities.PageActions - ***********************Logout button clicked****************************
+2020-04-26 12:39:27,582 [main] INFO utilities.PageActions - Element [[ChromeDriver: chrome on WINDOWS (770137ef45aef61871cbc05c0fd16af2)] -> css selector: a[href*='logout']] clicked using javascript executor
+2020-04-26 12:39:31,983 [main] INFO utilities.PageActions - *** Title is 
+2020-04-26 12:39:32,040 [main] INFO utilities.PageActions - ***********************Login passed****************************
+2020-04-26 12:39:32,044 [main] INFO utilities.PageActions - ***********************Closing browser****************************
+2020-04-26 12:42:22,442 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 12:42:22,549 [main] INFO utilities.PageActions - ***********************Opening URL****************************
+2020-04-26 12:43:31,611 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 12:43:31,711 [main] INFO utilities.PageActions - ***********************Opening URL****************************
+2020-04-26 12:50:00,866 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 12:50:02,196 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 12:50:02,199 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-26 12:50:06,074 [main] INFO utilities.PageActions - Text admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (c9a144ddea45359ddf155249678a4913)] -> xpath: //input[@class='email']]
+2020-04-26 12:50:06,306 [main] INFO utilities.PageActions - Text admin entered in [[ChromeDriver: chrome on WINDOWS (c9a144ddea45359ddf155249678a4913)] -> id: Password]
+2020-04-26 12:50:06,309 [main] INFO utilities.PageActions - ***********************Started login process****************************
+2020-04-26 12:50:06,554 [main] INFO utilities.PageActions - Element clicked : [[ChromeDriver: chrome on WINDOWS (c9a144ddea45359ddf155249678a4913)] -> xpath: //input[@value='Log in']]
+2020-04-26 12:50:11,026 [main] INFO utilities.PageActions - *** Title is 
+2020-04-26 12:50:11,048 [main] INFO utilities.PageActions - ***********************Login passed****************************
+2020-04-26 12:50:11,049 [main] INFO utilities.PageActions - ***********************Logout button clicked****************************
+2020-04-26 12:50:14,079 [main] INFO utilities.PageActions - Element [[ChromeDriver: chrome on WINDOWS (c9a144ddea45359ddf155249678a4913)] -> css selector: a[href*='logout']] clicked using javascript executor
+2020-04-26 12:50:20,057 [main] INFO utilities.PageActions - *** Title is 
+2020-04-26 12:50:20,182 [main] INFO utilities.PageActions - ***********************Login passed****************************
+2020-04-26 12:50:20,190 [main] INFO utilities.PageActions - ***********************Closing browser****************************
+2020-04-26 12:52:04,262 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 12:52:05,498 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 12:52:05,501 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-26 12:52:08,084 [main] INFO utilities.PageActions - Text admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (c4822d003deddb8fe229bbe5dc07c26a)] -> xpath: //input[@class='email']]
+2020-04-26 12:52:08,389 [main] INFO utilities.PageActions - Text admin entered in [[ChromeDriver: chrome on WINDOWS (c4822d003deddb8fe229bbe5dc07c26a)] -> id: Password]
+2020-04-26 12:52:08,392 [main] INFO utilities.PageActions - ***********************Started login process****************************
+2020-04-26 12:52:08,591 [main] INFO utilities.PageActions - Element clicked : [[ChromeDriver: chrome on WINDOWS (c4822d003deddb8fe229bbe5dc07c26a)] -> xpath: //input[@value='Log in']]
+2020-04-26 12:52:13,021 [main] INFO utilities.PageActions - *** Title is 
+2020-04-26 12:52:13,037 [main] INFO utilities.PageActions - ***********************Login passed****************************
+2020-04-26 12:52:13,039 [main] INFO utilities.PageActions - ***********************Logout button clicked****************************
+2020-04-26 12:52:16,080 [main] INFO utilities.PageActions - Element [[ChromeDriver: chrome on WINDOWS (c4822d003deddb8fe229bbe5dc07c26a)] -> css selector: a[href*='logout']] clicked using javascript executor
+2020-04-26 12:52:20,361 [main] INFO utilities.PageActions - *** Title is 
+2020-04-26 12:52:20,433 [main] INFO utilities.PageActions - ***********************Login passed****************************
+2020-04-26 12:52:20,446 [main] INFO utilities.PageActions - ***********************Closing browser****************************
+2020-04-26 12:54:24,007 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 12:54:25,267 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 12:54:25,272 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-26 12:56:08,244 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 12:56:09,508 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 12:56:09,511 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-26 12:56:38,698 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 12:56:39,952 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 12:56:39,955 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-26 12:57:25,744 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 12:57:27,006 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 12:57:27,010 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-26 12:59:19,678 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 12:59:20,953 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 12:59:20,956 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-26 12:59:25,165 [main] INFO utilities.PageActions - Text admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (78ef0272cec3599dbc231b63e2439c61)] -> xpath: //input[@class='email']]
+2020-04-26 12:59:25,402 [main] INFO utilities.PageActions - Text admin entered in [[ChromeDriver: chrome on WINDOWS (78ef0272cec3599dbc231b63e2439c61)] -> id: Password]
+2020-04-26 12:59:25,404 [main] INFO utilities.PageActions - ***********************Started login process****************************
+2020-04-26 12:59:25,677 [main] INFO utilities.PageActions - Element clicked : [[ChromeDriver: chrome on WINDOWS (78ef0272cec3599dbc231b63e2439c61)] -> xpath: //input[@value='Log in']]
+2020-04-26 12:59:28,783 [main] INFO utilities.PageActions - *** Title is 
+2020-04-26 12:59:28,798 [main] INFO utilities.PageActions - ***********************Login passed****************************
+2020-04-26 12:59:28,800 [main] INFO utilities.PageActions - ***********************Logout button clicked****************************
+2020-04-26 12:59:32,599 [main] INFO utilities.PageActions - Element [[ChromeDriver: chrome on WINDOWS (78ef0272cec3599dbc231b63e2439c61)] -> css selector: a[href*='logout']] clicked using javascript executor
+2020-04-26 12:59:35,842 [main] INFO utilities.PageActions - *** Title is 
+2020-04-26 12:59:35,896 [main] INFO utilities.PageActions - ***********************Login passed****************************
+2020-04-26 12:59:35,899 [main] INFO utilities.PageActions - ***********************Closing browser****************************
+2020-04-26 13:01:13,051 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 13:01:14,338 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 13:01:14,354 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-26 13:01:17,239 [main] INFO utilities.PageActions - Text admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (f429b343dd697bda81ec375c4e1b32b0)] -> xpath: //input[@class='email']]
+2020-04-26 13:01:17,527 [main] INFO utilities.PageActions - Text admin entered in [[ChromeDriver: chrome on WINDOWS (f429b343dd697bda81ec375c4e1b32b0)] -> id: Password]
+2020-04-26 13:01:17,533 [main] INFO utilities.PageActions - ***********************Started login process****************************
+2020-04-26 13:01:17,693 [main] INFO utilities.PageActions - Element clicked : [[ChromeDriver: chrome on WINDOWS (f429b343dd697bda81ec375c4e1b32b0)] -> xpath: //input[@value='Log in']]
+2020-04-26 13:01:20,577 [main] INFO utilities.PageActions - *** Title is 
+2020-04-26 13:01:38,374 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 13:01:39,672 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 13:01:39,676 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-26 13:03:30,034 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 13:03:31,284 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 13:03:31,287 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-26 13:06:06,484 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 13:06:07,764 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 13:06:07,766 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-26 13:06:15,476 [main] INFO utilities.PageActions - Text admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (e055694ff688fd8d994981e89330803a)] -> xpath: //input[@class='email']]
+2020-04-26 13:06:15,707 [main] INFO utilities.PageActions - Text admin entered in [[ChromeDriver: chrome on WINDOWS (e055694ff688fd8d994981e89330803a)] -> id: Password]
+2020-04-26 13:06:15,710 [main] INFO utilities.PageActions - ***********************Started login process****************************
+2020-04-26 13:06:16,275 [main] INFO utilities.PageActions - Element clicked : [[ChromeDriver: chrome on WINDOWS (e055694ff688fd8d994981e89330803a)] -> xpath: //input[@value='Log in']]
+2020-04-26 13:06:21,884 [main] INFO utilities.PageActions - *** Title is 
+2020-04-26 13:06:21,906 [main] INFO utilities.PageActions - ***********************Login passed****************************
+2020-04-26 13:06:21,907 [main] INFO utilities.PageActions - ***********************Logout button clicked****************************
+2020-04-26 13:06:23,830 [main] INFO utilities.PageActions - Element [[ChromeDriver: chrome on WINDOWS (e055694ff688fd8d994981e89330803a)] -> css selector: a[href*='logout']] clicked using javascript executor
+2020-04-26 13:06:27,914 [main] INFO utilities.PageActions - *** Title is 
+2020-04-26 13:06:27,954 [main] INFO utilities.PageActions - ***********************Login passed****************************
+2020-04-26 13:06:27,957 [main] INFO utilities.PageActions - ***********************Closing browser****************************
+2020-04-26 13:07:46,708 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 13:07:47,993 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 13:07:47,996 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-26 13:07:50,498 [main] INFO utilities.PageActions - Text admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (a468fc52a37c8ad4861d4301fc4f81f3)] -> xpath: //input[@class='email']]
+2020-04-26 13:07:50,725 [main] INFO utilities.PageActions - Text admin entered in [[ChromeDriver: chrome on WINDOWS (a468fc52a37c8ad4861d4301fc4f81f3)] -> id: Password]
+2020-04-26 13:07:50,727 [main] INFO utilities.PageActions - ***********************Started login process****************************
+2020-04-26 13:07:50,887 [main] INFO utilities.PageActions - Element clicked : [[ChromeDriver: chrome on WINDOWS (a468fc52a37c8ad4861d4301fc4f81f3)] -> xpath: //input[@value='Log in']]
+2020-04-26 13:07:55,016 [main] INFO utilities.PageActions - *** Title is 
+2020-04-26 13:07:55,034 [main] INFO utilities.PageActions - ***********************Login passed****************************
+2020-04-26 13:07:55,036 [main] INFO utilities.PageActions - ***********************Logout button clicked****************************
+2020-04-26 13:07:56,593 [main] INFO utilities.PageActions - Element [[ChromeDriver: chrome on WINDOWS (a468fc52a37c8ad4861d4301fc4f81f3)] -> css selector: a[href*='logout']] clicked using javascript executor
+2020-04-26 13:08:01,351 [main] INFO utilities.PageActions - *** Title is 
+2020-04-26 13:08:01,394 [main] INFO utilities.PageActions - ***********************Login passed****************************
+2020-04-26 13:08:01,397 [main] INFO utilities.PageActions - ***********************Closing browser****************************
+2020-04-26 13:12:24,302 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 13:12:25,528 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 13:12:25,531 [main] INFO utilities.PageActions - ***********************Providing login details****************************
+2020-04-26 13:12:28,167 [main] INFO utilities.PageActions - Text admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (f1d467aaf5d43aebf9f31fc6f57c978e)] -> xpath: //input[@class='email']]
+2020-04-26 13:12:28,409 [main] INFO utilities.PageActions - Text admin entered in [[ChromeDriver: chrome on WINDOWS (f1d467aaf5d43aebf9f31fc6f57c978e)] -> id: Password]
+2020-04-26 13:12:28,412 [main] INFO utilities.PageActions - ***********************Started login process****************************
+2020-04-26 13:12:28,579 [main] INFO utilities.PageActions - Element clicked : [[ChromeDriver: chrome on WINDOWS (f1d467aaf5d43aebf9f31fc6f57c978e)] -> xpath: //input[@value='Log in']]
+2020-04-26 13:12:34,409 [main] INFO utilities.PageActions - *** Title is 
+2020-04-26 13:12:34,423 [main] INFO utilities.PageActions - ***********************Login passed****************************
+2020-04-26 13:12:34,425 [main] INFO utilities.PageActions - ***********************Logout button clicked****************************
+2020-04-26 13:12:36,079 [main] INFO utilities.PageActions - Element [[ChromeDriver: chrome on WINDOWS (f1d467aaf5d43aebf9f31fc6f57c978e)] -> css selector: a[href*='logout']] clicked using javascript executor
+2020-04-26 13:12:40,203 [main] INFO utilities.PageActions - *** Title is 
+2020-04-26 13:12:40,307 [main] INFO utilities.PageActions - ***********************Login passed****************************
+2020-04-26 13:12:40,310 [main] INFO utilities.PageActions - ***********************Closing browser****************************
+2020-04-26 13:15:59,687 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 13:16:00,879 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 13:18:10,258 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 13:18:11,445 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 13:18:14,063 [main] INFO utilities.PageActions - Text admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (fc1ab99f7435a0e5f2150d4f37fdbe69)] -> xpath: //input[@class='email']]
+2020-04-26 13:18:14,296 [main] INFO utilities.PageActions - Text admin entered in [[ChromeDriver: chrome on WINDOWS (fc1ab99f7435a0e5f2150d4f37fdbe69)] -> id: Password]
+2020-04-26 13:18:14,456 [main] INFO utilities.PageActions - Element clicked : [[ChromeDriver: chrome on WINDOWS (fc1ab99f7435a0e5f2150d4f37fdbe69)] -> xpath: //input[@value='Log in']]
+2020-04-26 13:18:17,534 [main] INFO utilities.PageActions - *** Title is 
+2020-04-26 13:18:17,562 [main] INFO utilities.PageActions - ***********************Login passed****************************
+2020-04-26 13:18:21,304 [main] INFO utilities.PageActions - Element [[ChromeDriver: chrome on WINDOWS (fc1ab99f7435a0e5f2150d4f37fdbe69)] -> css selector: a[href*='logout']] clicked using javascript executor
+2020-04-26 13:18:24,354 [main] INFO utilities.PageActions - *** Title is 
+2020-04-26 13:18:24,367 [main] INFO utilities.PageActions - ***********************Login passed****************************
+2020-04-26 13:19:01,414 [main] INFO utilities.PageActions - Browser launched : chrome
+2020-04-26 13:19:02,591 [main] INFO utilities.PageActions - Launched url : http://admin-demo.nopcommerce.com/login
+2020-04-26 13:19:05,038 [main] INFO utilities.PageActions - Text admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (459650610ba166dfe0449c7a57c2a96d)] -> xpath: //input[@class='email']]
+2020-04-26 13:19:05,266 [main] INFO utilities.PageActions - Text admin entered in [[ChromeDriver: chrome on WINDOWS (459650610ba166dfe0449c7a57c2a96d)] -> id: Password]
+2020-04-26 13:19:05,430 [main] INFO utilities.PageActions - Element clicked : [[ChromeDriver: chrome on WINDOWS (459650610ba166dfe0449c7a57c2a96d)] -> xpath: //input[@value='Log in']]
+2020-04-26 13:19:10,823 [main] INFO utilities.PageActions - *** Title is 
+2020-04-26 13:19:10,846 [main] INFO utilities.PageActions - ***********************Login passed****************************
+2020-04-26 13:19:13,496 [main] INFO utilities.PageActions - Element [[ChromeDriver: chrome on WINDOWS (459650610ba166dfe0449c7a57c2a96d)] -> css selector: a[href*='logout']] clicked using javascript executor
+2020-04-26 13:19:16,708 [main] INFO utilities.PageActions - *** Title is 
+2020-04-26 13:19:16,727 [main] INFO utilities.PageActions - ***********************Login passed****************************
+2020-04-26 13:25:22,099 [main] INFO utilities.PageActions - *****Browser launched : chrome*****
+2020-04-26 13:25:23,305 [main] INFO utilities.PageActions - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-04-26 13:25:26,032 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-04-26 13:25:26,283 [main] INFO utilities.PageActions - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (52e486a29b86358cf1f8e8c19bf28c08)] -> xpath: //input[@class='email']]*****
+2020-04-26 13:25:26,350 [main] INFO utilities.PageActions - *****Element By.id: Password found on the page*****
+2020-04-26 13:25:26,510 [main] INFO utilities.PageActions - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (52e486a29b86358cf1f8e8c19bf28c08)] -> id: Password]*****
+2020-04-26 13:25:26,570 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@value='Log in'] found on the page*****
+2020-04-26 13:25:26,662 [main] INFO utilities.PageActions - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (52e486a29b86358cf1f8e8c19bf28c08)] -> xpath: //input[@value='Log in']]*****
+2020-04-26 13:25:29,568 [main] INFO utilities.PageActions - *** Title is 
+2020-04-26 13:25:29,581 [main] INFO utilities.PageActions - ***********************Login passed****************************
+2020-04-26 13:25:36,434 [main] INFO utilities.PageActions - *****Element By.cssSelector: a[href*='logout'] found on the page*****
+2020-04-26 13:25:36,645 [main] INFO utilities.PageActions - *****Element clicked using javascript executor : [[ChromeDriver: chrome on WINDOWS (52e486a29b86358cf1f8e8c19bf28c08)] -> css selector: a[href*='logout']]*****
+2020-04-26 13:25:40,442 [main] INFO utilities.PageActions - *** Title is Your store. Login
+2020-04-26 13:25:40,492 [main] INFO utilities.PageActions - ***********************Login passed****************************
+2020-04-26 13:30:39,541 [main] INFO utilities.PageActions - *****Browser launched : chrome*****
+2020-04-26 13:30:40,723 [main] INFO utilities.PageActions - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-04-26 13:30:43,101 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-04-26 13:30:43,409 [main] INFO utilities.PageActions - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (0e8ef98c75e0dfbdb4a4472c6371d3ee)] -> xpath: //input[@class='email']]*****
+2020-04-26 13:30:43,475 [main] INFO utilities.PageActions - *****Element By.id: Password found on the page*****
+2020-04-26 13:30:43,648 [main] INFO utilities.PageActions - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (0e8ef98c75e0dfbdb4a4472c6371d3ee)] -> id: Password]*****
+2020-04-26 13:30:43,713 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@value='Log in'] found on the page*****
+2020-04-26 13:30:43,843 [main] INFO utilities.PageActions - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (0e8ef98c75e0dfbdb4a4472c6371d3ee)] -> xpath: //input[@value='Log in']]*****
+2020-04-26 13:30:48,999 [main] INFO utilities.PageActions - *****Current page URL : *****
+2020-04-26 13:30:51,879 [main] INFO utilities.PageActions - *****Element By.cssSelector: a[href*='logout'] found on the page*****
+2020-04-26 13:30:51,964 [main] INFO utilities.PageActions - *****Element clicked using javascript executor : [[ChromeDriver: chrome on WINDOWS (0e8ef98c75e0dfbdb4a4472c6371d3ee)] -> css selector: a[href*='logout']]*****
+2020-04-26 13:30:56,206 [main] INFO utilities.PageActions - *****Current page URL : *****
+2020-04-26 13:44:56,027 [main] INFO utilities.PageActions - *****Browser launched : chrome*****
+2020-04-26 13:44:57,235 [main] INFO utilities.PageActions - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-04-26 13:44:59,615 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-04-26 13:44:59,866 [main] INFO utilities.PageActions - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (9edbd18939f5607be7bffa63c646f581)] -> xpath: //input[@class='email']]*****
+2020-04-26 13:44:59,934 [main] INFO utilities.PageActions - *****Element By.id: Password found on the page*****
+2020-04-26 13:45:00,120 [main] INFO utilities.PageActions - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (9edbd18939f5607be7bffa63c646f581)] -> id: Password]*****
+2020-04-26 13:45:00,178 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@value='Log in'] found on the page*****
+2020-04-26 13:45:00,271 [main] INFO utilities.PageActions - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (9edbd18939f5607be7bffa63c646f581)] -> xpath: //input[@value='Log in']]*****
+2020-04-26 13:46:39,558 [main] INFO utilities.PageActions - *****Browser launched : chrome*****
+2020-04-26 13:46:40,847 [main] INFO utilities.PageActions - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-04-26 13:46:43,196 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-04-26 13:46:43,447 [main] INFO utilities.PageActions - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (9e1793b585f0b0c17e135b2e8a1424c1)] -> xpath: //input[@class='email']]*****
+2020-04-26 13:46:43,519 [main] INFO utilities.PageActions - *****Element By.id: Password found on the page*****
+2020-04-26 13:46:43,770 [main] INFO utilities.PageActions - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (9e1793b585f0b0c17e135b2e8a1424c1)] -> id: Password]*****
+2020-04-26 13:46:43,826 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@value='Log in'] found on the page*****
+2020-04-26 13:46:43,921 [main] INFO utilities.PageActions - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (9e1793b585f0b0c17e135b2e8a1424c1)] -> xpath: //input[@value='Log in']]*****
+2020-04-26 13:46:53,035 [main] INFO utilities.PageActions - *****Element By.xpath: //a[@href='#']//span[contains(text(),'Customers')] found on the page*****
+2020-04-26 13:46:53,117 [main] INFO utilities.PageActions - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (9e1793b585f0b0c17e135b2e8a1424c1)] -> xpath: //a[@href='#']//span[contains(text(),'Customers')]]*****
+2020-04-26 13:49:35,482 [main] INFO utilities.PageActions - *****Browser launched : chrome*****
+2020-04-26 13:49:36,676 [main] INFO utilities.PageActions - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-04-26 13:49:39,076 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-04-26 13:49:39,321 [main] INFO utilities.PageActions - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (a61829d946f40297c05e7ed34e5c46ae)] -> xpath: //input[@class='email']]*****
+2020-04-26 13:49:39,390 [main] INFO utilities.PageActions - *****Element By.id: Password found on the page*****
+2020-04-26 13:49:39,568 [main] INFO utilities.PageActions - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (a61829d946f40297c05e7ed34e5c46ae)] -> id: Password]*****
+2020-04-26 13:49:39,631 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@value='Log in'] found on the page*****
+2020-04-26 13:49:39,724 [main] INFO utilities.PageActions - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (a61829d946f40297c05e7ed34e5c46ae)] -> xpath: //input[@value='Log in']]*****
+2020-04-26 13:51:56,943 [main] INFO utilities.PageActions - *****Browser launched : chrome*****
+2020-04-26 13:51:58,429 [main] INFO utilities.PageActions - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-04-26 13:52:05,766 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-04-26 13:52:06,126 [main] INFO utilities.PageActions - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (2fc4f78dafcf86f82403c12c8e1931e0)] -> xpath: //input[@class='email']]*****
+2020-04-26 13:52:06,207 [main] INFO utilities.PageActions - *****Element By.id: Password found on the page*****
+2020-04-26 13:52:06,391 [main] INFO utilities.PageActions - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (2fc4f78dafcf86f82403c12c8e1931e0)] -> id: Password]*****
+2020-04-26 13:52:06,460 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@value='Log in'] found on the page*****
+2020-04-26 13:52:06,575 [main] INFO utilities.PageActions - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (2fc4f78dafcf86f82403c12c8e1931e0)] -> xpath: //input[@value='Log in']]*****
+2020-04-26 13:52:16,676 [main] INFO utilities.PageActions - *****Element By.xpath: //a[@href='#']//span[contains(text(),'Customers')] found on the page*****
+2020-04-26 13:52:16,805 [main] INFO utilities.PageActions - *****Element By.xpath: //a[@href='#']//span[contains(text(),'Customers')] found on the page*****
+2020-04-26 13:52:16,845 [main] INFO utilities.PageActions - *****Element clicked using javascript executor : [[ChromeDriver: chrome on WINDOWS (2fc4f78dafcf86f82403c12c8e1931e0)] -> xpath: //a[@href='#']//span[contains(text(),'Customers')]]*****
+2020-04-26 13:52:32,353 [main] INFO utilities.PageActions - *****Element By.xpath: //span[@class='menu-item-title'][contains(text(),'Customers')] found on the page*****
+2020-04-26 13:52:32,600 [main] INFO utilities.PageActions - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (2fc4f78dafcf86f82403c12c8e1931e0)] -> xpath: //span[@class='menu-item-title'][contains(text(),'Customers')]]*****
+2020-04-26 13:52:38,564 [main] INFO utilities.PageActions - *****Element By.xpath: //a[@class='btn bg-blue'] found on the page*****
+2020-04-26 13:52:38,678 [main] INFO utilities.PageActions - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (2fc4f78dafcf86f82403c12c8e1931e0)] -> xpath: //a[@class='btn bg-blue']]*****
+2020-04-26 13:52:41,547 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@id='Email'] found on the page*****
+2020-04-26 13:52:41,962 [main] INFO utilities.PageActions - *****Text: McAbF@gmail.com entered in [[ChromeDriver: chrome on WINDOWS (2fc4f78dafcf86f82403c12c8e1931e0)] -> xpath: //input[@id='Email']]*****
+2020-04-26 13:52:42,050 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@id='Password'] found on the page*****
+2020-04-26 13:52:42,279 [main] INFO utilities.PageActions - *****Text: test123 entered in [[ChromeDriver: chrome on WINDOWS (2fc4f78dafcf86f82403c12c8e1931e0)] -> xpath: //input[@id='Password']]*****
+2020-04-26 13:52:42,347 [main] INFO utilities.PageActions - *****Element By.xpath: //*[@id="SelectedCustomerRoleIds_taglist"]/li/span[2] found on the page*****
+2020-04-26 13:52:42,460 [main] INFO utilities.PageActions - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (2fc4f78dafcf86f82403c12c8e1931e0)] -> xpath: //*[@id="SelectedCustomerRoleIds_taglist"]/li/span[2]]*****
+2020-04-26 13:52:42,541 [main] INFO utilities.PageActions - *****Element By.xpath: //div[@class='k-multiselect-wrap k-floatwrap'] found on the page*****
+2020-04-26 13:52:42,664 [main] INFO utilities.PageActions - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (2fc4f78dafcf86f82403c12c8e1931e0)] -> xpath: //div[@class='k-multiselect-wrap k-floatwrap']]*****
+2020-04-26 13:52:49,724 [main] INFO utilities.PageActions - *****Element By.id: Gender_Male found on the page*****
+2020-04-26 13:52:49,839 [main] INFO utilities.PageActions - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (2fc4f78dafcf86f82403c12c8e1931e0)] -> id: Gender_Male]*****
+2020-04-26 13:52:49,924 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@id='FirstName'] found on the page*****
+2020-04-26 13:52:50,145 [main] INFO utilities.PageActions - *****Text: Pavan entered in [[ChromeDriver: chrome on WINDOWS (2fc4f78dafcf86f82403c12c8e1931e0)] -> xpath: //input[@id='FirstName']]*****
+2020-04-26 13:52:50,208 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@id='LastName'] found on the page*****
+2020-04-26 13:52:50,417 [main] INFO utilities.PageActions - *****Text: Kumar entered in [[ChromeDriver: chrome on WINDOWS (2fc4f78dafcf86f82403c12c8e1931e0)] -> xpath: //input[@id='LastName']]*****
+2020-04-26 13:52:50,485 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@id='DateOfBirth'] found on the page*****
+2020-04-26 13:52:50,762 [main] INFO utilities.PageActions - *****Text: 7/05/1985 entered in [[ChromeDriver: chrome on WINDOWS (2fc4f78dafcf86f82403c12c8e1931e0)] -> xpath: //input[@id='DateOfBirth']]*****
+2020-04-26 13:52:50,828 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@id='Company'] found on the page*****
+2020-04-26 13:52:51,039 [main] INFO utilities.PageActions - *****Text: busyQA entered in [[ChromeDriver: chrome on WINDOWS (2fc4f78dafcf86f82403c12c8e1931e0)] -> xpath: //input[@id='Company']]*****
+2020-04-26 13:52:51,104 [main] INFO utilities.PageActions - *****Element By.xpath: //textarea[@id='AdminComment'] found on the page*****
+2020-04-26 13:52:51,508 [main] INFO utilities.PageActions - *****Text: This is for testing......... entered in [[ChromeDriver: chrome on WINDOWS (2fc4f78dafcf86f82403c12c8e1931e0)] -> xpath: //textarea[@id='AdminComment']]*****
+2020-04-26 13:52:51,566 [main] INFO utilities.PageActions - *****Element By.xpath: //button[@name='save'] found on the page*****
+2020-04-26 13:52:51,722 [main] INFO utilities.PageActions - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (2fc4f78dafcf86f82403c12c8e1931e0)] -> xpath: //button[@name='save']]*****
+2020-04-26 13:59:01,195 [main] INFO utilities.PageActions - *****Browser launched : chrome*****
+2020-04-26 13:59:01,336 [main] INFO utilities.PageActions - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-04-26 13:59:07,289 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-04-26 13:59:07,531 [main] INFO utilities.PageActions - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (8548a86ff343c334dd6dd0d2f6e955ce)] -> xpath: //input[@class='email']]*****
+2020-04-26 13:59:07,647 [main] INFO utilities.PageActions - *****Element By.id: Password found on the page*****
+2020-04-26 13:59:07,862 [main] INFO utilities.PageActions - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (8548a86ff343c334dd6dd0d2f6e955ce)] -> id: Password]*****
+2020-04-26 13:59:07,926 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@value='Log in'] found on the page*****
+2020-04-26 13:59:08,033 [main] INFO utilities.PageActions - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (8548a86ff343c334dd6dd0d2f6e955ce)] -> xpath: //input[@value='Log in']]*****
+2020-04-26 13:59:20,608 [main] INFO utilities.PageActions - *****Element By.xpath: //a[@href='#']//span[contains(text(),'Customers')] found on the page*****
+2020-04-26 13:59:20,799 [main] INFO utilities.PageActions - *****Element By.xpath: //a[@href='#']//span[contains(text(),'Customers')] found on the page*****
+2020-04-26 13:59:20,856 [main] INFO utilities.PageActions - *****Element clicked using javascript executor : [[ChromeDriver: chrome on WINDOWS (8548a86ff343c334dd6dd0d2f6e955ce)] -> xpath: //a[@href='#']//span[contains(text(),'Customers')]]*****
+2020-04-26 13:59:31,713 [main] INFO utilities.PageActions - *****Element By.xpath: //span[@class='menu-item-title'][contains(text(),'Customers')] found on the page*****
+2020-04-26 13:59:33,437 [main] INFO utilities.PageActions - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (8548a86ff343c334dd6dd0d2f6e955ce)] -> xpath: //span[@class='menu-item-title'][contains(text(),'Customers')]]*****
+2020-04-26 13:59:38,068 [main] INFO utilities.PageActions - *****Element By.xpath: //a[@class='btn bg-blue'] found on the page*****
+2020-04-26 13:59:38,241 [main] INFO utilities.PageActions - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (8548a86ff343c334dd6dd0d2f6e955ce)] -> xpath: //a[@class='btn bg-blue']]*****
+2020-04-26 13:59:41,060 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@id='Email'] found on the page*****
+2020-04-26 13:59:41,368 [main] INFO utilities.PageActions - *****Text: iAwou@gmail.com entered in [[ChromeDriver: chrome on WINDOWS (8548a86ff343c334dd6dd0d2f6e955ce)] -> xpath: //input[@id='Email']]*****
+2020-04-26 13:59:41,423 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@id='Password'] found on the page*****
+2020-04-26 13:59:41,623 [main] INFO utilities.PageActions - *****Text: test123 entered in [[ChromeDriver: chrome on WINDOWS (8548a86ff343c334dd6dd0d2f6e955ce)] -> xpath: //input[@id='Password']]*****
+2020-04-26 13:59:41,681 [main] INFO utilities.PageActions - *****Element By.xpath: //*[@id="SelectedCustomerRoleIds_taglist"]/li/span[2] found on the page*****
+2020-04-26 13:59:42,018 [main] INFO utilities.PageActions - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (8548a86ff343c334dd6dd0d2f6e955ce)] -> xpath: //*[@id="SelectedCustomerRoleIds_taglist"]/li/span[2]]*****
+2020-04-26 13:59:42,106 [main] INFO utilities.PageActions - *****Element By.xpath: //div[@class='k-multiselect-wrap k-floatwrap'] found on the page*****
+2020-04-26 13:59:42,248 [main] INFO utilities.PageActions - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (8548a86ff343c334dd6dd0d2f6e955ce)] -> xpath: //div[@class='k-multiselect-wrap k-floatwrap']]*****
+2020-04-26 13:59:48,655 [main] INFO utilities.PageActions - *****Element By.id: Gender_Male found on the page*****
+2020-04-26 13:59:48,777 [main] INFO utilities.PageActions - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (8548a86ff343c334dd6dd0d2f6e955ce)] -> id: Gender_Male]*****
+2020-04-26 13:59:48,843 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@id='FirstName'] found on the page*****
+2020-04-26 13:59:49,027 [main] INFO utilities.PageActions - *****Text: Pavan entered in [[ChromeDriver: chrome on WINDOWS (8548a86ff343c334dd6dd0d2f6e955ce)] -> xpath: //input[@id='FirstName']]*****
+2020-04-26 13:59:49,083 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@id='LastName'] found on the page*****
+2020-04-26 13:59:49,268 [main] INFO utilities.PageActions - *****Text: Kumar entered in [[ChromeDriver: chrome on WINDOWS (8548a86ff343c334dd6dd0d2f6e955ce)] -> xpath: //input[@id='LastName']]*****
+2020-04-26 13:59:49,329 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@id='DateOfBirth'] found on the page*****
+2020-04-26 13:59:49,548 [main] INFO utilities.PageActions - *****Text: 7/05/1985 entered in [[ChromeDriver: chrome on WINDOWS (8548a86ff343c334dd6dd0d2f6e955ce)] -> xpath: //input[@id='DateOfBirth']]*****
+2020-04-26 13:59:49,607 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@id='Company'] found on the page*****
+2020-04-26 13:59:49,847 [main] INFO utilities.PageActions - *****Text: busyQA entered in [[ChromeDriver: chrome on WINDOWS (8548a86ff343c334dd6dd0d2f6e955ce)] -> xpath: //input[@id='Company']]*****
+2020-04-26 13:59:49,917 [main] INFO utilities.PageActions - *****Element By.xpath: //textarea[@id='AdminComment'] found on the page*****
+2020-04-26 13:59:50,246 [main] INFO utilities.PageActions - *****Text: This is for testing......... entered in [[ChromeDriver: chrome on WINDOWS (8548a86ff343c334dd6dd0d2f6e955ce)] -> xpath: //textarea[@id='AdminComment']]*****
+2020-04-26 13:59:50,304 [main] INFO utilities.PageActions - *****Element By.xpath: //button[@name='save'] found on the page*****
+2020-04-26 13:59:50,427 [main] INFO utilities.PageActions - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (8548a86ff343c334dd6dd0d2f6e955ce)] -> xpath: //button[@name='save']]*****
+2020-04-26 14:13:22,873 [main] INFO utilities.PageActions - *****Browser launched : chrome*****
+2020-04-26 14:13:22,922 [main] INFO utilities.PageActions - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-04-26 14:13:26,535 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-04-26 14:13:26,851 [main] INFO utilities.PageActions - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (91fc8bda936d71c20692d0ed588b83d3)] -> xpath: //input[@class='email']]*****
+2020-04-26 14:13:26,926 [main] INFO utilities.PageActions - *****Element By.id: Password found on the page*****
+2020-04-26 14:13:27,087 [main] INFO utilities.PageActions - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (91fc8bda936d71c20692d0ed588b83d3)] -> id: Password]*****
+2020-04-26 14:13:27,151 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@value='Log in'] found on the page*****
+2020-04-26 14:13:27,845 [main] INFO utilities.PageActions - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (91fc8bda936d71c20692d0ed588b83d3)] -> xpath: //input[@value='Log in']]*****
+2020-04-26 14:13:27,866 [main] INFO utilities.PageActions - *****The Title of the page : Your store. Login*****
+2020-04-26 14:13:34,749 [main] INFO utilities.PageActions - *****Browser launched : chrome*****
+2020-04-26 14:13:34,979 [main] INFO utilities.PageActions - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-04-26 14:13:38,344 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-04-26 14:13:38,599 [main] INFO utilities.PageActions - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (6b39657eeec85a4d69e870f7a7632067)] -> xpath: //input[@class='email']]*****
+2020-04-26 14:13:38,669 [main] INFO utilities.PageActions - *****Element By.id: Password found on the page*****
+2020-04-26 14:13:38,841 [main] INFO utilities.PageActions - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (6b39657eeec85a4d69e870f7a7632067)] -> id: Password]*****
+2020-04-26 14:13:38,901 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@value='Log in'] found on the page*****
+2020-04-26 14:13:39,000 [main] INFO utilities.PageActions - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (6b39657eeec85a4d69e870f7a7632067)] -> xpath: //input[@value='Log in']]*****
+2020-04-26 14:13:43,692 [main] INFO utilities.PageActions - *****The Title of the page : *****
+2020-04-26 14:13:48,009 [main] INFO utilities.PageActions - *****Element By.cssSelector: a[href*='logout'] found on the page*****
+2020-04-26 14:13:50,051 [main] INFO utilities.PageActions - *****Element clicked using javascript executor : [[ChromeDriver: chrome on WINDOWS (6b39657eeec85a4d69e870f7a7632067)] -> css selector: a[href*='logout']]*****
+2020-04-26 14:13:53,146 [main] INFO utilities.PageActions - *****The Title of the page : *****
+2020-04-26 14:13:58,363 [main] INFO utilities.PageActions - *****Browser launched : chrome*****
+2020-04-26 14:13:58,371 [main] INFO utilities.PageActions - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-04-26 14:14:01,995 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-04-26 14:14:02,236 [main] INFO utilities.PageActions - *****Text: admin1@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (ff5c72107510bf8b07fa7d3f8a52c51c)] -> xpath: //input[@class='email']]*****
+2020-04-26 14:14:02,298 [main] INFO utilities.PageActions - *****Element By.id: Password found on the page*****
+2020-04-26 14:14:02,482 [main] INFO utilities.PageActions - *****Text: admin123 entered in [[ChromeDriver: chrome on WINDOWS (ff5c72107510bf8b07fa7d3f8a52c51c)] -> id: Password]*****
+2020-04-26 14:14:02,539 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@value='Log in'] found on the page*****
+2020-04-26 14:14:02,634 [main] INFO utilities.PageActions - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (ff5c72107510bf8b07fa7d3f8a52c51c)] -> xpath: //input[@value='Log in']]*****
+2020-04-26 14:14:04,175 [main] INFO utilities.PageActions - *****The Title of the page : *****
+2020-04-26 14:15:04,414 [main] INFO utilities.PageActions - *****Browser launched : chrome*****
+2020-04-26 14:15:04,444 [main] INFO utilities.PageActions - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-04-26 14:15:07,962 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-04-26 14:15:08,202 [main] INFO utilities.PageActions - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (29754455494a02851a43612bb6360aae)] -> xpath: //input[@class='email']]*****
+2020-04-26 14:15:08,281 [main] INFO utilities.PageActions - *****Element By.id: Password found on the page*****
+2020-04-26 14:15:08,450 [main] INFO utilities.PageActions - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (29754455494a02851a43612bb6360aae)] -> id: Password]*****
+2020-04-26 14:15:08,515 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@value='Log in'] found on the page*****
+2020-04-26 14:15:09,388 [main] INFO utilities.PageActions - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (29754455494a02851a43612bb6360aae)] -> xpath: //input[@value='Log in']]*****
+2020-04-26 14:15:09,412 [main] INFO utilities.PageActions - *****The Title of the page : Your store. Login*****
+2020-04-26 14:16:25,515 [main] INFO utilities.PageActions - *****Browser launched : chrome*****
+2020-04-26 14:16:25,552 [main] INFO utilities.PageActions - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-04-26 14:16:29,646 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-04-26 14:16:29,929 [main] INFO utilities.PageActions - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (a03a79de41e463a2c21d73788d282392)] -> xpath: //input[@class='email']]*****
+2020-04-26 14:16:30,081 [main] INFO utilities.PageActions - *****Element By.id: Password found on the page*****
+2020-04-26 14:16:30,370 [main] INFO utilities.PageActions - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (a03a79de41e463a2c21d73788d282392)] -> id: Password]*****
+2020-04-26 14:16:30,461 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@value='Log in'] found on the page*****
+2020-04-26 14:16:30,594 [main] INFO utilities.PageActions - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (a03a79de41e463a2c21d73788d282392)] -> xpath: //input[@value='Log in']]*****
+2020-04-26 14:16:39,856 [main] INFO utilities.PageActions - *****Element By.cssSelector: a[href*='logout'] found on the page*****
+2020-04-26 14:16:39,886 [main] INFO utilities.PageActions - *****The Title of the page : Dashboard / nopCommerce administration*****
+2020-04-26 14:16:40,948 [main] INFO utilities.PageActions - *****Element By.cssSelector: a[href*='logout'] found on the page*****
+2020-04-26 14:16:40,977 [main] INFO utilities.PageActions - *****Element clicked using javascript executor : [[ChromeDriver: chrome on WINDOWS (a03a79de41e463a2c21d73788d282392)] -> css selector: a[href*='logout']]*****
+2020-04-26 14:23:39,185 [main] INFO utilities.PageActions - *****Browser launched : chrome*****
+2020-04-26 14:23:39,309 [main] INFO utilities.PageActions - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-04-26 14:23:48,509 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-04-26 14:23:48,897 [main] INFO utilities.PageActions - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (93db2f5f3da709fa5066242b6782a372)] -> xpath: //input[@class='email']]*****
+2020-04-26 14:23:48,968 [main] INFO utilities.PageActions - *****Element By.id: Password found on the page*****
+2020-04-26 14:23:49,134 [main] INFO utilities.PageActions - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (93db2f5f3da709fa5066242b6782a372)] -> id: Password]*****
+2020-04-26 14:23:49,198 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@value='Log in'] found on the page*****
+2020-04-26 14:23:49,305 [main] INFO utilities.PageActions - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (93db2f5f3da709fa5066242b6782a372)] -> xpath: //input[@value='Log in']]*****
+2020-04-26 14:24:02,170 [main] INFO utilities.PageActions - *****Element By.cssSelector: a[href*='logout'] found on the page*****
+2020-04-26 14:24:02,272 [main] INFO utilities.PageActions - *****The Title of the page : Dashboard / nopCommerce administration*****
+2020-04-26 14:24:02,600 [main] INFO utilities.PageActions - *****Element By.cssSelector: a[href*='logout'] found on the page*****
+2020-04-26 14:24:02,623 [main] INFO utilities.PageActions - *****Element clicked using javascript executor : [[ChromeDriver: chrome on WINDOWS (93db2f5f3da709fa5066242b6782a372)] -> css selector: a[href*='logout']]*****
+2020-04-26 14:28:31,750 [main] INFO utilities.PageActions - *****Browser launched : chrome*****
+2020-04-26 14:28:32,206 [main] INFO utilities.PageActions - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-04-26 14:28:49,878 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-04-26 14:28:50,151 [main] INFO utilities.PageActions - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (c22b0e46d6df0770297bd10b76aaf3f4)] -> xpath: //input[@class='email']]*****
+2020-04-26 14:28:50,229 [main] INFO utilities.PageActions - *****Element By.id: Password found on the page*****
+2020-04-26 14:28:50,410 [main] INFO utilities.PageActions - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (c22b0e46d6df0770297bd10b76aaf3f4)] -> id: Password]*****
+2020-04-26 14:28:50,476 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@value='Log in'] found on the page*****
+2020-04-26 14:28:50,575 [main] INFO utilities.PageActions - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (c22b0e46d6df0770297bd10b76aaf3f4)] -> xpath: //input[@value='Log in']]*****
+2020-04-26 14:28:59,037 [main] INFO utilities.PageActions - *****Element By.cssSelector: a[href*='logout'] clickable on the page*****
+2020-04-26 14:28:59,127 [main] INFO utilities.PageActions - *****The Title of the page : Dashboard / nopCommerce administration*****
+2020-04-26 14:28:59,247 [main] INFO utilities.PageActions - *****Element By.cssSelector: a[href*='logout'] found on the page*****
+2020-04-26 14:28:59,270 [main] INFO utilities.PageActions - *****Element clicked using javascript executor : [[ChromeDriver: chrome on WINDOWS (c22b0e46d6df0770297bd10b76aaf3f4)] -> css selector: a[href*='logout']]*****
+2020-04-26 14:34:40,898 [main] INFO utilities.PageActions - *****Browser launched : chrome*****
+2020-04-26 14:34:41,031 [main] INFO utilities.PageActions - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-04-26 14:34:44,520 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-04-26 14:34:44,782 [main] INFO utilities.PageActions - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (ea245ee5393e13e863c85ab29ed8c331)] -> xpath: //input[@class='email']]*****
+2020-04-26 14:34:44,853 [main] INFO utilities.PageActions - *****Element By.id: Password found on the page*****
+2020-04-26 14:34:45,056 [main] INFO utilities.PageActions - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (ea245ee5393e13e863c85ab29ed8c331)] -> id: Password]*****
+2020-04-26 14:34:45,119 [main] INFO utilities.PageActions - *****Element By.xpath: //input[@value='Log in'] found on the page*****
+2020-04-26 14:34:45,208 [main] INFO utilities.PageActions - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (ea245ee5393e13e863c85ab29ed8c331)] -> xpath: //input[@value='Log in']]*****
+2020-04-26 14:34:55,794 [main] INFO utilities.PageActions - *****The Title of the page : Dashboard / nopCommerce administration*****
+2020-04-26 14:34:55,942 [main] INFO utilities.PageActions - *****Element By.cssSelector: a[href*='logout'] found on the page*****
+2020-04-26 14:34:55,969 [main] INFO utilities.PageActions - *****Element clicked using javascript executor : [[ChromeDriver: chrome on WINDOWS (ea245ee5393e13e863c85ab29ed8c331)] -> css selector: a[href*='logout']]*****
+2020-04-26 14:34:59,070 [main] INFO utilities.PageActions - *****The Title of the page : *****

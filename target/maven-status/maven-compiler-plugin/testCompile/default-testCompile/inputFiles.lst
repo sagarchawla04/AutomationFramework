@@ -1,5 +1,7 @@
 D:\AutomationFramework\AutomationFramework\src\test\java\TestRunner\TestRun.java
 D:\AutomationFramework\AutomationFramework\src\test\java\pageObjects\LoginPage.java
+D:\AutomationFramework\AutomationFramework\src\test\java\utilities\ExtentReportManager.java
+D:\AutomationFramework\AutomationFramework\src\test\java\utilities\PageActions.java
 D:\AutomationFramework\AutomationFramework\src\test\java\stepDefinitions\BaseClass.java
 D:\AutomationFramework\AutomationFramework\src\test\java\pageObjects\AddCustomerPage.java
 D:\AutomationFramework\AutomationFramework\src\test\java\stepDefinitions\Steps.java

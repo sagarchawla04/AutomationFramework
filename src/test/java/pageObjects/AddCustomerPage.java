@@ -7,13 +7,17 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
+import utilities.PageActions;
+
 public class AddCustomerPage {
 
 	public WebDriver ldriver;
+	public PageActions pageActions;
 
 	public AddCustomerPage(WebDriver rdriver) {
 		ldriver = rdriver;
 		PageFactory.initElements(ldriver, this);
+		pageActions = new PageActions(ldriver);
 	}
 
 	By lnkCustomers_menu = By.xpath("//a[@href='#']//span[contains(text(),'Customers')]");
@@ -53,32 +57,43 @@ public class AddCustomerPage {
 	}
 
 	public void clickOnCustomersMenu() {
-		ldriver.findElement(lnkCustomers_menu).click();
+		pageActions.clickByJavaScript(lnkCustomers_menu);
+		//ldriver.findElement(lnkCustomers_menu).click();
+	}
+	
+	public void verifylogin() {
+		pageActions.findObject(lnkCustomers_menu);
 	}
 
 	public void clickOnCustomersMenuItem() {
-		ldriver.findElement(lnkCustomers_menuitem).click();
+		pageActions.click(lnkCustomers_menuitem);
+		//ldriver.findElement(lnkCustomers_menuitem).click();
 	}
 
 	public void clickOnAddnew() {
-		ldriver.findElement(btnAddnew).click();
+		pageActions.click(btnAddnew);
+		//ldriver.findElement(btnAddnew).click();
 	}
 
 	public void setEmail(String email) {
-		ldriver.findElement(txtEmail).sendKeys(email);
+		pageActions.setText(txtEmail, email);
+		//ldriver.findElement(txtEmail).sendKeys(email);
 	}
 
 	public void setPassword(String password) {
-		ldriver.findElement(txtPassword).sendKeys(password);
+		pageActions.setText(txtPassword, password);
+		//ldriver.findElement(txtPassword).sendKeys(password);
 	}
 
 	public void setCustomerRoles(String role) throws InterruptedException {
 		if (!role.equals("Vendors")) // If role is vendors should not delete Register as per req.
 		{
-			ldriver.findElement(By.xpath("//*[@id=\"SelectedCustomerRoleIds_taglist\"]/li/span[2]")).click();
+			pageActions.click(By.xpath("//*[@id=\"SelectedCustomerRoleIds_taglist\"]/li/span[2]"));
+			//ldriver.findElement(By.xpath("//*[@id=\"SelectedCustomerRoleIds_taglist\"]/li/span[2]")).click();
 		}
 
-		ldriver.findElement(txtcustomerRoles).click();
+		pageActions.click(txtcustomerRoles);
+		//ldriver.findElement(txtcustomerRoles).click();
 
 		WebElement listitem;
 
@@ -111,37 +126,46 @@ public class AddCustomerPage {
 
 	public void setGender(String gender) {
 		if (gender.equals("Male")) {
-			ldriver.findElement(rdMaleGender).click();
+			pageActions.click(rdMaleGender);
+			//ldriver.findElement(rdMaleGender).click();
 		} else if (gender.equals("Female")) {
-			ldriver.findElement(rdFeMaleGender).click();
+			pageActions.click(rdFeMaleGender);
+			//ldriver.findElement(rdFeMaleGender).click();
 		} else {
-			ldriver.findElement(rdMaleGender).click();// Default
+			pageActions.click(rdMaleGender);
+			//ldriver.findElement(rdMaleGender).click();// Default
 		}
 
 	}
 
 	public void setFirstName(String fname) {
-		ldriver.findElement(txtFirstName).sendKeys(fname);
+		pageActions.setText(txtFirstName, fname);
+	//	ldriver.findElement(txtFirstName).sendKeys(fname);
 	}
 
 	public void setLastName(String lname) {
-		ldriver.findElement(txtLastName).sendKeys(lname);
+		pageActions.setText(txtLastName, lname);
+	//	ldriver.findElement(txtLastName).sendKeys(lname);
 	}
 
 	public void setDob(String dob) {
-		ldriver.findElement(txtDob).sendKeys(dob);
+		pageActions.setText(txtDob, dob);
+		//ldriver.findElement(txtDob).sendKeys(dob);
 	}
 
 	public void setCompanyName(String comname) {
-		ldriver.findElement(txtCompanyName).sendKeys(comname);
+		pageActions.setText(txtCompanyName, comname);
+		//ldriver.findElement(txtCompanyName).sendKeys(comname);
 	}
 
 	public void setAdminContent(String content) {
-		ldriver.findElement(txtAdminContent).sendKeys(content);
+		pageActions.setText(txtAdminContent, content);
+		//ldriver.findElement(txtAdminContent).sendKeys(content);
 	}
 
 	public void clickOnSave() {
-		ldriver.findElement(btnSave).click();
+		pageActions.click(btnSave);
+		//ldriver.findElement(btnSave).click();
 	}
 
 }
