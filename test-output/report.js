@@ -22,7 +22,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepDefinitions.Steps.user_Launch_Chrome_browser()"
+  "location": "Steps.user_Launch_Chrome_browser()"
 });
 formatter.result({
   "status": "passed"
@@ -32,7 +32,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "stepDefinitions.Steps.user_opens_URL(java.lang.String)"
+  "location": "Steps.user_opens_URL(String)"
 });
 formatter.result({
   "status": "passed"
@@ -42,7 +42,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepDefinitions.Steps.user_enters_Email_as_and_Password_as(java.lang.String,java.lang.String)"
+  "location": "Steps.user_enters_Email_as_and_Password_as(String,String)"
 });
 formatter.result({
   "status": "passed"
@@ -52,7 +52,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepDefinitions.Steps.click_on_Login()"
+  "location": "Steps.click_on_Login()"
 });
 formatter.result({
   "status": "passed"
@@ -62,7 +62,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepDefinitions.Steps.page_Title_should_be(java.lang.String)"
+  "location": "Steps.page_Title_should_be(String)"
 });
 formatter.result({
   "status": "passed"
@@ -72,7 +72,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "stepDefinitions.Steps.user_click_on_Log_out_link()"
+  "location": "Steps.user_click_on_Log_out_link()"
 });
 formatter.result({
   "status": "passed"
@@ -82,7 +82,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepDefinitions.Steps.page_Title_should_be(java.lang.String)"
+  "location": "Steps.page_Title_should_be(String)"
 });
 formatter.result({
   "status": "passed"
@@ -92,9 +92,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepDefinitions.Steps.close_browser()"
+  "location": "Steps.close_browser()"
 });
 formatter.result({
+  "status": "passed"
+});
+formatter.after({
   "status": "passed"
 });
 });

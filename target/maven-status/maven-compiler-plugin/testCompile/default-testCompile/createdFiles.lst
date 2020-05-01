@@ -1,8 +1,10 @@
+stepDefinitions\Hooks.class
 utilities\PageActions.class
 pageObjects\LoginPage.class
 TestRunner\TestRun.class
 pageObjects\SearchCustomerPage.class
+utilities\ExtentReportManager.class
 stepDefinitions\BaseClass.class
-utilities\WaitHelper.class
 stepDefinitions\Steps.class
 pageObjects\AddCustomerPage.class
+utilities\PageActions$1.class

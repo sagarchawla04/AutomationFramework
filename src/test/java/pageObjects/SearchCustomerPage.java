@@ -10,16 +10,19 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
-import utilities.WaitHelper;
+import utilities.PageActions;
 
 public class SearchCustomerPage {
 	public WebDriver ldriver;
-	WaitHelper waitHelper;
+	//WaitHelper waitHelper;
+	PageActions pageActions;
 
 	public SearchCustomerPage(WebDriver rdriver) {
 		ldriver = rdriver;
 		PageFactory.initElements(ldriver, this);
-		waitHelper = new WaitHelper(ldriver);
+		//pageActions = new PageActions(ldriver);
+		pageActions = new PageActions();
+		//waitHelper = new WaitHelper(ldriver);
 	}
 
 	@FindBy(how = How.ID, using = "SearchEmail")
@@ -52,19 +55,19 @@ public class SearchCustomerPage {
 	List<WebElement> tableColumns;
 
 	public void setEmail(String email) {
-		waitHelper.WaitForElementToBeVisible(txtEmail, 60);
+		//waitHelper.WaitForElementToBeVisible(txtEmail, 60);
 		txtEmail.clear();
 		txtEmail.sendKeys(email);
 	}
 
 	public void setFirstName(String fname) {
-		waitHelper.WaitForElementToBeVisible(txtFirstName, 60);
+		//waitHelper.WaitForElementToBeVisible(txtFirstName, 60);
 		txtFirstName.clear();
 		txtFirstName.sendKeys(fname);
 	}
 
 	public void setLastName(String lname) {
-		waitHelper.WaitForElementToBeVisible(txtLastName, 60);
+		//waitHelper.WaitForElementToBeVisible(txtLastName, 60);
 		txtLastName.clear();
 		txtLastName.sendKeys(lname);
 	}

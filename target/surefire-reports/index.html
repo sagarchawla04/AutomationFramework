@@ -59,7 +59,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="group-TestRunner_TestRun">
-                    <span>0 groups</span>
+                    <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">0 methods,   </span>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestRunner_TestRun" class="hide-methods passed suite-TestRunner_TestRun"> (hide)</a> <!-- hide-methods passed suite-TestRunner_TestRun -->
+                      <a href="#" panel-name="suite-TestRunner_TestRun" class="show-methods passed suite-TestRunner_TestRun"> (show)</a> <!-- show-methods passed suite-TestRunner_TestRun -->
+                    </span>
+                    <div class="method-list-content passed suite-TestRunner_TestRun">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestRunner_TestRun" title="TestRunner.TestRun" hash-for-method="runScenario(&quot;Successful Login with Valid Credentials&quot;, &quot;Login to application&quot;)">runScenario("Successful Login with Valid Credentials", "Login to application")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestRunner_TestRun -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -103,6 +117,24 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-TestRunner_TestRun" class="panel TestRunner_TestRun">
+          <div class="suite-TestRunner_TestRun-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestRunner.TestRun</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Successful Login with Valid Credentials&quot;, &quot;Login to application&quot;)">
+                  </a> <!-- runScenario("Successful Login with Valid Credentials", "Login to application") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Successful Login with Valid Credentials", "Login to application")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestRunner_TestRun-class-passed -->
         </div> <!-- panel TestRunner_TestRun -->
         <div panel-name="test-xml-TestRunner_TestRun" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -138,6 +170,14 @@
             <span class="header-content">Groups for TestRunner.TestRun</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-TestRunner_TestRun" class="panel">
@@ -154,12 +194,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(0);
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'TestRunner.TestRun')
+data.setCell(0, 3, 48362);
 window.suiteTableData['TestRunner_TestRun']= { tableData: data, tableDiv: 'times-div-TestRunner_TestRun'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 48 seconds</span>
               <div id="times-div-TestRunner_TestRun">
               </div> <!-- times-div-TestRunner_TestRun -->
             </div> <!-- times-div -->
@@ -184,6 +228,20 @@ return data;
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestRunner.TestRun</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Successful Login with Valid Credentials", "Login to application")</span>
+                <span class="method-start">313 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">48768 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
