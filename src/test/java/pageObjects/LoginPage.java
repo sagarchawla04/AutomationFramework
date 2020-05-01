@@ -52,4 +52,5 @@ public class LoginPage {
         Assert.assertEquals(expectedtitle, pageActions.getPageTitle());
     }
 
+    
 }
