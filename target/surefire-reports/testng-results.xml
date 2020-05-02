@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="TestRunner.TestRun" duration-ms="49111" started-at="2020-05-01T23:53:56 IST" finished-at="2020-05-01T23:54:46 IST">
+  <suite name="TestRunner.TestRun" duration-ms="59238" started-at="2020-05-02T18:19:28 IST" finished-at="2020-05-02T18:20:27 IST">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.TestRun@b4cef0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.TestRun@1d6a08]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Command line test" duration-ms="49111" started-at="2020-05-01T23:53:56 IST" finished-at="2020-05-01T23:54:46 IST">
+    <test name="Command line test" duration-ms="59238" started-at="2020-05-02T18:19:28 IST" finished-at="2020-05-02T18:20:27 IST">
       <class name="TestRunner.TestRun">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestRunner.TestRun@b4cef0]" name="setUpClass" is-config="true" duration-ms="204" started-at="2020-05-01T23:53:57 IST" finished-at="2020-05-01T23:53:57 IST">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestRunner.TestRun@1d6a08]" name="setUpClass" is-config="true" duration-ms="187" started-at="2020-05-02T18:19:28 IST" finished-at="2020-05-02T18:19:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.TestRun@b4cef0]" name="runScenario" duration-ms="48362" started-at="2020-05-01T23:53:57 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-05-01T23:54:45 IST">
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.TestRun@1d6a08]" name="runScenario" duration-ms="58614" started-at="2020-05-02T18:19:29 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-05-02T18:20:27 IST">
           <params>
             <param index="0">
               <value>
@@ -27,10 +27,31 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Test failed with exception ---> org.openqa.selenium.TimeoutException: Supplied function might have stalled
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'SAGARCHAWLA-PC', ip: '192.168.1.102', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Test failed with exception ---> org.openqa.selenium.TimeoutException: Supplied function might have stalled
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'SAGARCHAWLA-PC', ip: '192.168.1.102', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: driver.version: unknown
+at org.testng.Assert.fail(Assert.java:97)
+at utilities.PageActions.findObject(PageActions.java:156)
+at utilities.PageActions.setText(PageActions.java:142)
+at pageObjects.LoginPage.setPassword(LoginPage.java:34)
+at stepDefinitions.Steps.user_enters_Email_as_and_Password_as(Steps.java:33)
+at ✽.User enters Email as "admin@yourstore.com" and Password as "admin"(file:Features/Login.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner.TestRun@b4cef0]" name="tearDownClass" is-config="true" duration-ms="94" started-at="2020-05-01T23:54:45 IST" finished-at="2020-05-01T23:54:45 IST">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner.TestRun@1d6a08]" name="tearDownClass" is-config="true" duration-ms="94" started-at="2020-05-02T18:20:27 IST" finished-at="2020-05-02T18:20:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

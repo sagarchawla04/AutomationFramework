@@ -9,10 +9,19 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">TestRunner.TestRun</th></tr>
-<tr><td><a href="#t0">Command line test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">49,111</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Command line test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">59,238</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TestRunner.TestRun</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestRunner.TestRun</td><td><a href="#m0">runScenario</a></td><td rowspan="1">1588357437438</td><td rowspan="1">48362</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TestRunner.TestRun</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestRunner.TestRun</td><td><a href="#m0">runScenario</a></td><td rowspan="1">1588423769188</td><td rowspan="1">58614</td></tr></tbody>
 </table>
-<h2>Command line test</h2><h3 id="m0">TestRunner.TestRun#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Successful Login with Valid Credentials&quot;</td><td>&quot;Login to application&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Command line test</h2><h3 id="m0">TestRunner.TestRun#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Successful Login with Valid Credentials&quot;</td><td>&quot;Login to application&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Test failed with exception ---&gt; org.openqa.selenium.TimeoutException: Supplied function might have stalled
+Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
+System info: host: &apos;SAGARCHAWLA-PC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: driver.version: unknown
+	at utilities.PageActions.findObject(PageActions.java:156)
+	at utilities.PageActions.setText(PageActions.java:142)
+	at pageObjects.LoginPage.setPassword(LoginPage.java:34)
+	at stepDefinitions.Steps.user_enters_Email_as_and_Password_as(Steps.java:33)
+	at ✽.User enters Email as &quot;admin@yourstore.com&quot; and Password as &quot;admin&quot;(file:Features/Login.feature:7)
+... Removed 1 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestRunner.TestRun
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 51.286 sec
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 61.768 sec <<< FAILURE!
+runScenario(TestRunner.TestRun)  Time elapsed: 58.646 sec  <<< FAILURE!
+java.lang.AssertionError: Test failed with exception ---> org.openqa.selenium.TimeoutException: Supplied function might have stalled
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'SAGARCHAWLA-PC', ip: '192.168.1.102', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: driver.version: unknown
+	at org.testng.Assert.fail(Assert.java:97)
+	at utilities.PageActions.findObject(PageActions.java:156)
+	at utilities.PageActions.setText(PageActions.java:142)
+	at pageObjects.LoginPage.setPassword(LoginPage.java:34)
+	at stepDefinitions.Steps.user_enters_Email_as_and_Password_as(Steps.java:33)
+	at ?.User enters Email as "admin@yourstore.com" and Password as "admin"(file:Features/Login.feature:7)
+

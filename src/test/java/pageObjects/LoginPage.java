@@ -2,8 +2,7 @@ package pageObjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
-import junit.framework.Assert;
+import org.testng.Assert;
 import utilities.PageActions;
 
 public class LoginPage {
@@ -14,12 +13,12 @@ public class LoginPage {
     public LoginPage(WebDriver rdriver) {
         ldriver = rdriver;
         // PageFactory.initElements(ldriver, this);
-       // pageActions = new PageActions(ldriver);
+        // pageActions = new PageActions(ldriver);
         pageActions = new PageActions();
     }
 
     By txtEmail1 = By.xpath("//input[@class='email']");
-    By txtPassword1 = By.id("Password");
+    By txtPassword1 = By.id("Password1");
     By btnLogin1 = By.xpath("//input[@value='Log in']");
     By lnkLogout1 = By.cssSelector("a[href*='logout']");
 
@@ -51,6 +50,4 @@ public class LoginPage {
     public void verifyPageTitle(String expectedtitle) {
         Assert.assertEquals(expectedtitle, pageActions.getPageTitle());
     }
-
-    
 }

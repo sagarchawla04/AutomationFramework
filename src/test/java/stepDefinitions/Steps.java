@@ -1,34 +1,16 @@
 package stepDefinitions;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.Properties;
 
-import org.apache.log4j.Level;
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.PageLoadStrategy;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
-
-import io.cucumber.java.Before;
-//import org.slf4j.LoggerFactory;
-//import ch.qos.logback.classic.Level;
-//import ch.qos.logback.classic.Logger;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import pageObjects.AddCustomerPage;
 import pageObjects.LoginPage;
 import pageObjects.SearchCustomerPage;
-import utilities.PageActions;
+import utilities.JsonReader;
 
 public class Steps extends BaseClass {
 
@@ -44,13 +26,15 @@ public class Steps extends BaseClass {
     }
 
     @When("User enters Email as {string} and Password as {string}")
-    public void user_enters_Email_as_and_Password_as(String email, String password)  {
+    public void user_enters_Email_as_and_Password_as(String email, String password) {
+        //String email1 = JsonReader.getValueByJPath("./src/test/java/Resources/test.json","/batters/batter[1]/email");
+        //String password1 = JsonReader.getValueByJPath("./src/test/java/Resources/test.json","/batters/batter[1]/password");
         lp.setUserName(email);
         lp.setPassword(password);
     }
 
     @When("Click on Login")
-    public void click_on_Login()  {
+    public void click_on_Login() {
         lp.clickLogin();
     }
 
@@ -73,14 +57,14 @@ public class Steps extends BaseClass {
     // Customer feature step definitions
 
     @Then("User can view Dashboad")
-    public void user_can_view_Dashboad()   {
+    public void user_can_view_Dashboad() {
         addCust = new AddCustomerPage(driver);
         addCust.verifylogin();
         Assert.assertEquals("Dashboard / nopCommerce administration", addCust.getPageTitle());
     }
 
     @When("User click on customers Menu")
-    public void user_click_on_customers_Menu()  {
+    public void user_click_on_customers_Menu() {
         addCust.clickOnCustomersMenu();
     }
 
@@ -104,7 +88,7 @@ public class Steps extends BaseClass {
 
     @When("User enter customer info")
     public void user_enter_customer_info() throws InterruptedException {
-        String email = ramdomString() + "@gmail.com";
+        String email = pageActions.generateRamdomString() + "@gmail.com";
         addCust.setEmail(email);
         addCust.setPassword("test123");
         // Registered - default

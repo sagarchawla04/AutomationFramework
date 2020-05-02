@@ -45,7 +45,8 @@ formatter.match({
   "location": "Steps.user_enters_Email_as_and_Password_as(String,String)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.AssertionError: Test failed with exception ---\u003e org.openqa.selenium.TimeoutException: Supplied function might have stalled\nBuild info: version: \u00274.0.0-alpha-5\u0027, revision: \u0027b3a0d621cc\u0027\nSystem info: host: \u0027SAGARCHAWLA-PC\u0027, ip: \u0027192.168.1.102\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027x86\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_211\u0027\nDriver info: driver.version: unknown\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat utilities.PageActions.findObject(PageActions.java:156)\r\n\tat utilities.PageActions.setText(PageActions.java:142)\r\n\tat pageObjects.LoginPage.setPassword(LoginPage.java:34)\r\n\tat stepDefinitions.Steps.user_enters_Email_as_and_Password_as(Steps.java:33)\r\n\tat ✽.User enters Email as \"admin@yourstore.com\" and Password as \"admin\"(file:Features/Login.feature:7)\r\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "Click on Login",
@@ -55,7 +56,7 @@ formatter.match({
   "location": "Steps.click_on_Login()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "Page Title should be \"Dashboard / nopCommerce administration\"",
@@ -65,7 +66,7 @@ formatter.match({
   "location": "Steps.page_Title_should_be(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User click on Log out link",
@@ -75,7 +76,7 @@ formatter.match({
   "location": "Steps.user_click_on_Log_out_link()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "Page Title should be \"Your store. Login\"",
@@ -85,7 +86,7 @@ formatter.match({
   "location": "Steps.page_Title_should_be(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "close browser",
@@ -95,7 +96,7 @@ formatter.match({
   "location": "Steps.close_browser()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
   "status": "passed"

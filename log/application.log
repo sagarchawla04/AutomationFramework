@@ -1215,3 +1215,451 @@
 2020-05-01 23:54:41,122 [main] INFO utilities.PageActions - *****Element By.cssSelector: a[href*='logout'] clickable on the page*****
 2020-05-01 23:54:41,147 [main] INFO utilities.PageActions - *****Element clicked using javascript executor : [[ChromeDriver: chrome on WINDOWS (0d8c18087a0be9259f5789bfec8fa7fa)] -> css selector: a[href*='logout']]*****
 2020-05-01 23:54:44,286 [main] INFO utilities.PageActions - *****The Title of the page : Your store. Login*****
+2020-05-02 09:37:42,415 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 09:37:49,318 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 09:37:49,960 [main] INFO utilities.DriverManager - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (5a61e33e55460683a21b0ac7b39b6465)] -> xpath: //input[@class='email']]*****
+2020-05-02 09:37:50,024 [main] INFO utilities.DriverManager - *****Element By.id: Password found on the page*****
+2020-05-02 09:37:50,198 [main] INFO utilities.DriverManager - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (5a61e33e55460683a21b0ac7b39b6465)] -> id: Password]*****
+2020-05-02 09:37:50,273 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@value='Log in'] clickable on the page*****
+2020-05-02 09:37:50,534 [main] INFO utilities.DriverManager - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (5a61e33e55460683a21b0ac7b39b6465)] -> xpath: //input[@value='Log in']]*****
+2020-05-02 09:38:01,777 [main] INFO utilities.DriverManager - *****Page loaded successfully*****
+2020-05-02 09:38:01,790 [main] INFO utilities.DriverManager - *****The Title of the page : Dashboard / nopCommerce administration*****
+2020-05-02 09:38:01,938 [main] INFO utilities.DriverManager - *****Element By.cssSelector: a[href*='logout'] clickable on the page*****
+2020-05-02 09:38:01,996 [main] INFO utilities.DriverManager - *****Element clicked using javascript executor : [[ChromeDriver: chrome on WINDOWS (5a61e33e55460683a21b0ac7b39b6465)] -> css selector: a[href*='logout']]*****
+2020-05-02 09:38:05,016 [main] INFO utilities.DriverManager - *****The Title of the page : Your store. Login*****
+2020-05-02 09:41:05,230 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 09:41:09,212 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 09:41:10,144 [main] INFO utilities.DriverManager - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (666374138df18ed5f2ad182849b676eb)] -> xpath: //input[@class='email']]*****
+2020-05-02 09:41:10,206 [main] INFO utilities.DriverManager - *****Element By.id: Password found on the page*****
+2020-05-02 09:41:10,407 [main] INFO utilities.DriverManager - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (666374138df18ed5f2ad182849b676eb)] -> id: Password]*****
+2020-05-02 09:41:10,473 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@value='Log in'] clickable on the page*****
+2020-05-02 09:41:10,575 [main] INFO utilities.DriverManager - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (666374138df18ed5f2ad182849b676eb)] -> xpath: //input[@value='Log in']]*****
+2020-05-02 09:41:20,356 [main] INFO utilities.DriverManager - *****Page loaded successfully*****
+2020-05-02 09:41:20,371 [main] INFO utilities.DriverManager - *****The Title of the page : Dashboard / nopCommerce administration*****
+2020-05-02 09:41:20,460 [main] INFO utilities.DriverManager - *****Element By.cssSelector: a[href*='logout'] clickable on the page*****
+2020-05-02 09:41:20,486 [main] INFO utilities.DriverManager - *****Element clicked using javascript executor : [[ChromeDriver: chrome on WINDOWS (666374138df18ed5f2ad182849b676eb)] -> css selector: a[href*='logout']]*****
+2020-05-02 09:41:24,359 [main] INFO utilities.DriverManager - *****The Title of the page : *****
+2020-05-02 09:42:46,533 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 09:42:46,548 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 09:42:50,288 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 09:42:50,546 [main] INFO utilities.DriverManager - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (3f29206150cae5cb8657e7a1df095226)] -> xpath: //input[@class='email']]*****
+2020-05-02 09:42:50,606 [main] INFO utilities.DriverManager - *****Element By.id: Password found on the page*****
+2020-05-02 09:42:50,806 [main] INFO utilities.DriverManager - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (3f29206150cae5cb8657e7a1df095226)] -> id: Password]*****
+2020-05-02 09:42:50,873 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@value='Log in'] clickable on the page*****
+2020-05-02 09:42:50,997 [main] INFO utilities.DriverManager - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (3f29206150cae5cb8657e7a1df095226)] -> xpath: //input[@value='Log in']]*****
+2020-05-02 09:43:01,108 [main] INFO utilities.DriverManager - *****Page loaded successfully*****
+2020-05-02 09:43:01,116 [main] INFO utilities.DriverManager - *****The Title of the page : Dashboard / nopCommerce administration*****
+2020-05-02 09:43:01,204 [main] INFO utilities.DriverManager - *****Element By.cssSelector: a[href*='logout'] clickable on the page*****
+2020-05-02 09:43:01,227 [main] INFO utilities.DriverManager - *****Element clicked using javascript executor : [[ChromeDriver: chrome on WINDOWS (3f29206150cae5cb8657e7a1df095226)] -> css selector: a[href*='logout']]*****
+2020-05-02 09:43:04,385 [main] INFO utilities.DriverManager - *****The Title of the page : *****
+2020-05-02 09:48:07,660 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 09:48:07,691 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 09:48:11,362 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 09:48:11,650 [main] INFO utilities.DriverManager - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (76a7454e2d7e50c1c24698ec37921043)] -> xpath: //input[@class='email']]*****
+2020-05-02 09:48:11,712 [main] INFO utilities.DriverManager - *****Element By.id: Password found on the page*****
+2020-05-02 09:48:11,914 [main] INFO utilities.DriverManager - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (76a7454e2d7e50c1c24698ec37921043)] -> id: Password]*****
+2020-05-02 09:48:11,978 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@value='Log in'] clickable on the page*****
+2020-05-02 09:48:12,095 [main] INFO utilities.DriverManager - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (76a7454e2d7e50c1c24698ec37921043)] -> xpath: //input[@value='Log in']]*****
+2020-05-02 09:48:19,416 [main] INFO utilities.DriverManager - *****Page loaded successfully*****
+2020-05-02 09:48:19,426 [main] INFO utilities.DriverManager - *****The Title of the page : Dashboard / nopCommerce administration*****
+2020-05-02 09:48:19,584 [main] INFO utilities.DriverManager - *****Element By.cssSelector: a[href*='logout'] clickable on the page*****
+2020-05-02 09:48:19,617 [main] INFO utilities.DriverManager - *****Element clicked using javascript executor : [[ChromeDriver: chrome on WINDOWS (76a7454e2d7e50c1c24698ec37921043)] -> css selector: a[href*='logout']]*****
+2020-05-02 09:48:23,171 [main] INFO utilities.DriverManager - *****The Title of the page : *****
+2020-05-02 09:49:35,014 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 09:49:35,061 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 09:49:37,685 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 09:49:38,000 [main] INFO utilities.DriverManager - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (38315e4e765cfc25ca4b8adf0c8569a6)] -> xpath: //input[@class='email']]*****
+2020-05-02 09:50:18,255 [main] INFO utilities.DriverManager - *****Element By.id: Password not found on the page*****
+2020-05-02 09:52:41,958 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 09:52:41,989 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 09:52:45,763 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 09:52:45,996 [main] INFO utilities.DriverManager - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (d9fed2671127bf95cc2150873477ed6a)] -> xpath: //input[@class='email']]*****
+2020-05-02 09:52:46,201 [main] INFO utilities.DriverManager - *****Element By.id: Password found on the page*****
+2020-05-02 09:52:46,556 [main] INFO utilities.DriverManager - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (d9fed2671127bf95cc2150873477ed6a)] -> id: Password]*****
+2020-05-02 09:52:46,627 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@value='Log in'] clickable on the page*****
+2020-05-02 09:52:46,704 [main] INFO utilities.DriverManager - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (d9fed2671127bf95cc2150873477ed6a)] -> xpath: //input[@value='Log in']]*****
+2020-05-02 09:52:54,065 [main] INFO utilities.DriverManager - *****Page loaded successfully*****
+2020-05-02 09:52:54,093 [main] INFO utilities.DriverManager - *****The Title of the page : Dashboard / nopCommerce administration*****
+2020-05-02 09:52:54,279 [main] INFO utilities.DriverManager - *****Element By.cssSelector: a[href*='logout'] clickable on the page*****
+2020-05-02 09:52:54,322 [main] INFO utilities.DriverManager - *****Element clicked using javascript executor : [[ChromeDriver: chrome on WINDOWS (d9fed2671127bf95cc2150873477ed6a)] -> css selector: a[href*='logout']]*****
+2020-05-02 09:52:57,481 [main] INFO utilities.DriverManager - *****The Title of the page : *****
+2020-05-02 09:56:43,506 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 09:56:43,553 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 09:56:47,701 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 09:56:47,999 [main] INFO utilities.DriverManager - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (edcb18ceec3802dc966871d6e04b3648)] -> xpath: //input[@class='email']]*****
+2020-05-02 09:56:48,070 [main] INFO utilities.DriverManager - *****Element By.id: Password found on the page*****
+2020-05-02 09:56:48,258 [main] INFO utilities.DriverManager - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (edcb18ceec3802dc966871d6e04b3648)] -> id: Password]*****
+2020-05-02 09:56:48,335 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@value='Log in'] clickable on the page*****
+2020-05-02 09:56:48,450 [main] INFO utilities.DriverManager - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (edcb18ceec3802dc966871d6e04b3648)] -> xpath: //input[@value='Log in']]*****
+2020-05-02 09:57:01,056 [main] INFO utilities.DriverManager - *****Page loaded successfully*****
+2020-05-02 09:57:01,101 [main] INFO utilities.DriverManager - *****The Title of the page : Dashboard / nopCommerce administration*****
+2020-05-02 09:57:01,356 [main] INFO utilities.DriverManager - *****Element By.cssSelector: a[href*='logout'] clickable on the page*****
+2020-05-02 09:57:01,391 [main] INFO utilities.DriverManager - *****Element clicked using javascript executor : [[ChromeDriver: chrome on WINDOWS (edcb18ceec3802dc966871d6e04b3648)] -> css selector: a[href*='logout']]*****
+2020-05-02 09:57:04,488 [main] INFO utilities.DriverManager - *****The Title of the page : Your store. Login*****
+2020-05-02 10:02:54,145 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 10:02:54,165 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 10:03:02,257 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 10:03:02,641 [main] INFO utilities.DriverManager - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (a4eb62224492a90f6cdc5044fdfb5a01)] -> xpath: //input[@class='email']]*****
+2020-05-02 10:03:02,714 [main] INFO utilities.DriverManager - *****Element By.id: Password found on the page*****
+2020-05-02 10:03:02,879 [main] INFO utilities.DriverManager - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (a4eb62224492a90f6cdc5044fdfb5a01)] -> id: Password]*****
+2020-05-02 10:03:02,953 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@value='Log in'] clickable on the page*****
+2020-05-02 10:03:03,045 [main] INFO utilities.DriverManager - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (a4eb62224492a90f6cdc5044fdfb5a01)] -> xpath: //input[@value='Log in']]*****
+2020-05-02 10:03:13,360 [main] INFO utilities.DriverManager - *****Page loaded successfully*****
+2020-05-02 10:03:13,389 [main] INFO utilities.DriverManager - *****The Title of the page : Dashboard / nopCommerce administration*****
+2020-05-02 10:03:13,497 [main] INFO utilities.DriverManager - *****Element By.cssSelector: a[href*='logout'] clickable on the page*****
+2020-05-02 10:03:13,534 [main] INFO utilities.DriverManager - *****Element clicked using javascript executor : [[ChromeDriver: chrome on WINDOWS (a4eb62224492a90f6cdc5044fdfb5a01)] -> css selector: a[href*='logout']]*****
+2020-05-02 10:03:18,085 [main] INFO utilities.DriverManager - *****The Title of the page : *****
+2020-05-02 10:04:47,135 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 10:04:47,178 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 10:04:51,669 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 10:04:51,985 [main] INFO utilities.DriverManager - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (4163cd92db11d2d494b8ec78bf12b7da)] -> xpath: //input[@class='email']]*****
+2020-05-02 10:04:52,058 [main] INFO utilities.DriverManager - *****Element By.id: Password found on the page*****
+2020-05-02 10:04:52,230 [main] INFO utilities.DriverManager - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (4163cd92db11d2d494b8ec78bf12b7da)] -> id: Password]*****
+2020-05-02 10:04:52,304 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@value='Log in'] clickable on the page*****
+2020-05-02 10:04:52,405 [main] INFO utilities.DriverManager - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (4163cd92db11d2d494b8ec78bf12b7da)] -> xpath: //input[@value='Log in']]*****
+2020-05-02 10:05:03,327 [main] INFO utilities.DriverManager - *****Page loaded successfully*****
+2020-05-02 10:05:03,345 [main] INFO utilities.DriverManager - *****The Title of the page : Dashboard / nopCommerce administration*****
+2020-05-02 10:05:03,461 [main] INFO utilities.DriverManager - *****Element By.cssSelector: a[href*='logout'] clickable on the page*****
+2020-05-02 10:05:03,504 [main] INFO utilities.DriverManager - *****Element clicked using javascript executor : [[ChromeDriver: chrome on WINDOWS (4163cd92db11d2d494b8ec78bf12b7da)] -> css selector: a[href*='logout']]*****
+2020-05-02 10:05:06,685 [main] INFO utilities.DriverManager - *****The Title of the page : *****
+2020-05-02 15:10:22,821 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 15:10:22,927 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 15:10:29,415 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 15:10:30,308 [main] INFO utilities.DriverManager - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (e25ce14bc222529e29a20f129889db79)] -> xpath: //input[@class='email']]*****
+2020-05-02 15:10:30,394 [main] INFO utilities.DriverManager - *****Element By.id: Password found on the page*****
+2020-05-02 15:10:30,858 [main] INFO utilities.DriverManager - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (e25ce14bc222529e29a20f129889db79)] -> id: Password]*****
+2020-05-02 15:10:30,944 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@value='Log in'] clickable on the page*****
+2020-05-02 15:10:31,123 [main] INFO utilities.DriverManager - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (e25ce14bc222529e29a20f129889db79)] -> xpath: //input[@value='Log in']]*****
+2020-05-02 15:10:43,611 [main] INFO utilities.DriverManager - *****Page loaded successfully*****
+2020-05-02 15:10:43,638 [main] INFO utilities.DriverManager - *****The Title of the page : Dashboard / nopCommerce administration*****
+2020-05-02 15:10:43,831 [main] INFO utilities.DriverManager - *****Element By.cssSelector: a[href*='logout'] clickable on the page*****
+2020-05-02 15:10:43,891 [main] INFO utilities.DriverManager - *****Element clicked using javascript executor : [[ChromeDriver: chrome on WINDOWS (e25ce14bc222529e29a20f129889db79)] -> css selector: a[href*='logout']]*****
+2020-05-02 15:10:46,944 [main] INFO utilities.DriverManager - *****The Title of the page : Your store. Login*****
+2020-05-02 15:11:57,166 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 15:11:57,197 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 15:12:00,353 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 15:12:00,623 [main] INFO utilities.DriverManager - *****Text: 1002 entered in [[ChromeDriver: chrome on WINDOWS (b409f54922904754dbe3300d18ef8ce5)] -> xpath: //input[@class='email']]*****
+2020-05-02 15:12:00,698 [main] INFO utilities.DriverManager - *****Element By.id: Password found on the page*****
+2020-05-02 15:12:00,885 [main] INFO utilities.DriverManager - *****Text: Chocolate entered in [[ChromeDriver: chrome on WINDOWS (b409f54922904754dbe3300d18ef8ce5)] -> id: Password]*****
+2020-05-02 15:12:00,975 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@value='Log in'] clickable on the page*****
+2020-05-02 15:12:01,155 [main] INFO utilities.DriverManager - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (b409f54922904754dbe3300d18ef8ce5)] -> xpath: //input[@value='Log in']]*****
+2020-05-02 15:12:01,804 [main] INFO utilities.DriverManager - *****Page loaded successfully*****
+2020-05-02 15:12:01,831 [main] INFO utilities.DriverManager - *****The Title of the page : Your store. Login*****
+2020-05-02 15:13:22,574 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 15:13:22,590 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 15:13:27,709 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 15:13:28,031 [main] INFO utilities.DriverManager - *****Text: 1002 entered in [[ChromeDriver: chrome on WINDOWS (c605b96d52a47d3cfa9fe91b994bc16f)] -> xpath: //input[@class='email']]*****
+2020-05-02 15:13:28,108 [main] INFO utilities.DriverManager - *****Element By.id: Password found on the page*****
+2020-05-02 15:13:28,332 [main] INFO utilities.DriverManager - *****Text: Chocolate entered in [[ChromeDriver: chrome on WINDOWS (c605b96d52a47d3cfa9fe91b994bc16f)] -> id: Password]*****
+2020-05-02 15:13:28,421 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@value='Log in'] clickable on the page*****
+2020-05-02 15:13:28,532 [main] INFO utilities.DriverManager - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (c605b96d52a47d3cfa9fe91b994bc16f)] -> xpath: //input[@value='Log in']]*****
+2020-05-02 15:13:28,547 [main] INFO utilities.DriverManager - *****Page loaded successfully*****
+2020-05-02 15:13:28,557 [main] INFO utilities.DriverManager - *****The Title of the page : Your store. Login*****
+2020-05-02 15:19:28,559 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 15:19:28,590 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 15:19:33,407 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 15:19:33,642 [main] INFO utilities.DriverManager - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (3ad7c82f947ceb05bbd9b7bbc16e3453)] -> xpath: //input[@class='email']]*****
+2020-05-02 15:19:33,719 [main] INFO utilities.DriverManager - *****Element By.id: Password found on the page*****
+2020-05-02 15:19:33,909 [main] INFO utilities.DriverManager - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (3ad7c82f947ceb05bbd9b7bbc16e3453)] -> id: Password]*****
+2020-05-02 15:19:33,992 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@value='Log in'] clickable on the page*****
+2020-05-02 15:19:34,179 [main] INFO utilities.DriverManager - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (3ad7c82f947ceb05bbd9b7bbc16e3453)] -> xpath: //input[@value='Log in']]*****
+2020-05-02 15:19:47,971 [main] INFO utilities.DriverManager - *****Page loaded successfully*****
+2020-05-02 15:19:47,987 [main] INFO utilities.DriverManager - *****The Title of the page : Dashboard / nopCommerce administration*****
+2020-05-02 15:19:48,097 [main] INFO utilities.DriverManager - *****Element By.cssSelector: a[href*='logout'] clickable on the page*****
+2020-05-02 15:19:48,113 [main] INFO utilities.DriverManager - *****Element clicked using javascript executor : [[ChromeDriver: chrome on WINDOWS (3ad7c82f947ceb05bbd9b7bbc16e3453)] -> css selector: a[href*='logout']]*****
+2020-05-02 15:19:51,164 [main] INFO utilities.DriverManager - *****The Title of the page : Your store. Login*****
+2020-05-02 15:19:56,114 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 15:19:56,129 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 15:19:59,234 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 15:19:59,552 [main] INFO utilities.DriverManager - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (8840c927333d6b03ee866448221d2c83)] -> xpath: //input[@class='email']]*****
+2020-05-02 15:19:59,624 [main] INFO utilities.DriverManager - *****Element By.id: Password found on the page*****
+2020-05-02 15:19:59,797 [main] INFO utilities.DriverManager - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (8840c927333d6b03ee866448221d2c83)] -> id: Password]*****
+2020-05-02 15:19:59,897 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@value='Log in'] clickable on the page*****
+2020-05-02 15:20:00,017 [main] INFO utilities.DriverManager - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (8840c927333d6b03ee866448221d2c83)] -> xpath: //input[@value='Log in']]*****
+2020-05-02 15:20:13,067 [main] INFO utilities.DriverManager - *****Page loaded successfully*****
+2020-05-02 15:20:13,078 [main] INFO utilities.DriverManager - *****The Title of the page : Dashboard / nopCommerce administration*****
+2020-05-02 15:20:13,169 [main] INFO utilities.DriverManager - *****Element By.cssSelector: a[href*='logout'] clickable on the page*****
+2020-05-02 15:20:13,201 [main] INFO utilities.DriverManager - *****Element clicked using javascript executor : [[ChromeDriver: chrome on WINDOWS (8840c927333d6b03ee866448221d2c83)] -> css selector: a[href*='logout']]*****
+2020-05-02 15:20:16,242 [main] INFO utilities.DriverManager - *****The Title of the page : Your store. Login*****
+2020-05-02 15:20:21,192 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 15:20:21,208 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 15:20:23,747 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 15:20:23,974 [main] INFO utilities.DriverManager - *****Text: admin1@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (0bce30d235fd2d24d123a2a37a450129)] -> xpath: //input[@class='email']]*****
+2020-05-02 15:20:24,037 [main] INFO utilities.DriverManager - *****Element By.id: Password found on the page*****
+2020-05-02 15:20:24,217 [main] INFO utilities.DriverManager - *****Text: admin123 entered in [[ChromeDriver: chrome on WINDOWS (0bce30d235fd2d24d123a2a37a450129)] -> id: Password]*****
+2020-05-02 15:20:24,315 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@value='Log in'] clickable on the page*****
+2020-05-02 15:20:28,040 [main] INFO utilities.DriverManager - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (0bce30d235fd2d24d123a2a37a450129)] -> xpath: //input[@value='Log in']]*****
+2020-05-02 15:20:34,510 [main] INFO utilities.DriverManager - *****Page loaded successfully*****
+2020-05-02 15:20:34,525 [main] INFO utilities.DriverManager - *****The Title of the page : Your store. Login*****
+2020-05-02 15:27:31,427 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 15:27:31,458 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 15:27:34,904 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 15:27:35,260 [main] INFO utilities.DriverManager - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (5436e0be95a22b364f34690a86183d64)] -> xpath: //input[@class='email']]*****
+2020-05-02 15:27:35,347 [main] INFO utilities.DriverManager - *****Element By.id: Password found on the page*****
+2020-05-02 15:27:35,553 [main] INFO utilities.DriverManager - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (5436e0be95a22b364f34690a86183d64)] -> id: Password]*****
+2020-05-02 15:27:35,631 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@value='Log in'] clickable on the page*****
+2020-05-02 15:27:35,735 [main] INFO utilities.DriverManager - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (5436e0be95a22b364f34690a86183d64)] -> xpath: //input[@value='Log in']]*****
+2020-05-02 15:27:45,516 [main] INFO utilities.DriverManager - *****Page loaded successfully*****
+2020-05-02 15:27:45,532 [main] INFO utilities.DriverManager - *****The Title of the page : Dashboard / nopCommerce administration*****
+2020-05-02 15:27:45,658 [main] INFO utilities.DriverManager - *****Element By.cssSelector: a[href*='logout'] clickable on the page*****
+2020-05-02 15:27:45,689 [main] INFO utilities.DriverManager - *****Element clicked using javascript executor : [[ChromeDriver: chrome on WINDOWS (5436e0be95a22b364f34690a86183d64)] -> css selector: a[href*='logout']]*****
+2020-05-02 15:27:48,722 [main] INFO utilities.DriverManager - *****The Title of the page : Your store. Login*****
+2020-05-02 15:27:54,012 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 15:27:54,028 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 15:27:57,262 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 15:27:57,611 [main] INFO utilities.DriverManager - *****Text: admin1@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (aede73dd0266710f7c392e3eb6ae06f6)] -> xpath: //input[@class='email']]*****
+2020-05-02 15:27:57,671 [main] INFO utilities.DriverManager - *****Element By.id: Password found on the page*****
+2020-05-02 15:27:57,867 [main] INFO utilities.DriverManager - *****Text: admin123 entered in [[ChromeDriver: chrome on WINDOWS (aede73dd0266710f7c392e3eb6ae06f6)] -> id: Password]*****
+2020-05-02 15:27:57,953 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@value='Log in'] clickable on the page*****
+2020-05-02 15:27:58,063 [main] INFO utilities.DriverManager - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (aede73dd0266710f7c392e3eb6ae06f6)] -> xpath: //input[@value='Log in']]*****
+2020-05-02 15:27:59,708 [main] INFO utilities.DriverManager - *****Page loaded successfully*****
+2020-05-02 15:27:59,723 [main] INFO utilities.DriverManager - *****The Title of the page : Your store. Login*****
+2020-05-02 15:42:12,212 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 15:42:12,243 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 15:42:15,944 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 15:42:16,314 [main] INFO utilities.DriverManager - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (33e3cb31ba031a508a8a8554c139cbaf)] -> xpath: //input[@class='email']]*****
+2020-05-02 15:42:16,397 [main] INFO utilities.DriverManager - *****Element By.id: Password found on the page*****
+2020-05-02 15:42:16,554 [main] INFO utilities.DriverManager - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (33e3cb31ba031a508a8a8554c139cbaf)] -> id: Password]*****
+2020-05-02 15:42:16,636 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@value='Log in'] clickable on the page*****
+2020-05-02 15:42:16,728 [main] INFO utilities.DriverManager - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (33e3cb31ba031a508a8a8554c139cbaf)] -> xpath: //input[@value='Log in']]*****
+2020-05-02 15:42:25,961 [main] INFO utilities.DriverManager - *****Page loaded successfully*****
+2020-05-02 15:42:25,977 [main] INFO utilities.DriverManager - *****The Title of the page : Dashboard / nopCommerce administration*****
+2020-05-02 15:42:26,110 [main] INFO utilities.DriverManager - *****Element By.cssSelector: a[href*='logout'] clickable on the page*****
+2020-05-02 15:42:26,124 [main] INFO utilities.DriverManager - *****Element clicked using javascript executor : [[ChromeDriver: chrome on WINDOWS (33e3cb31ba031a508a8a8554c139cbaf)] -> css selector: a[href*='logout']]*****
+2020-05-02 15:42:29,157 [main] INFO utilities.DriverManager - *****The Title of the page : Your store. Login*****
+2020-05-02 15:42:34,008 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 15:42:34,024 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 15:42:38,054 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 15:42:38,434 [main] INFO utilities.DriverManager - *****Text: admin1@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (5e05d8bb126f514d9561af90b16fcaa3)] -> xpath: //input[@class='email']]*****
+2020-05-02 15:42:38,490 [main] INFO utilities.DriverManager - *****Element By.id: Password found on the page*****
+2020-05-02 15:42:38,697 [main] INFO utilities.DriverManager - *****Text: admin123 entered in [[ChromeDriver: chrome on WINDOWS (5e05d8bb126f514d9561af90b16fcaa3)] -> id: Password]*****
+2020-05-02 15:42:38,790 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@value='Log in'] clickable on the page*****
+2020-05-02 15:42:38,899 [main] INFO utilities.DriverManager - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (5e05d8bb126f514d9561af90b16fcaa3)] -> xpath: //input[@value='Log in']]*****
+2020-05-02 15:42:40,521 [main] INFO utilities.DriverManager - *****Page loaded successfully*****
+2020-05-02 15:42:40,530 [main] INFO utilities.DriverManager - *****The Title of the page : Your store. Login*****
+2020-05-02 15:42:41,023 [main] INFO utilities.DriverManager - *****Screenshot captured successfully*****
+2020-05-02 15:54:49,734 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 15:54:49,949 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 15:55:02,889 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 15:55:03,384 [main] INFO utilities.DriverManager - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (ded9b9da7d34073eb0936621629c314b)] -> xpath: //input[@class='email']]*****
+2020-05-02 15:55:03,459 [main] INFO utilities.DriverManager - *****Element By.id: Password found on the page*****
+2020-05-02 15:55:03,633 [main] INFO utilities.DriverManager - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (ded9b9da7d34073eb0936621629c314b)] -> id: Password]*****
+2020-05-02 15:55:03,728 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@value='Log in'] clickable on the page*****
+2020-05-02 15:55:05,500 [main] INFO utilities.DriverManager - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (ded9b9da7d34073eb0936621629c314b)] -> xpath: //input[@value='Log in']]*****
+2020-05-02 15:55:05,559 [main] INFO utilities.DriverManager - *****Page loaded successfully*****
+2020-05-02 15:55:05,574 [main] INFO utilities.DriverManager - *****The Title of the page : Your store. Login*****
+2020-05-02 15:55:05,614 [main] INFO utilities.DriverManager - Scenario is failed : Login Data Driven
+2020-05-02 15:55:06,151 [main] INFO utilities.DriverManager - *****Screenshot captured successfully*****
+2020-05-02 15:55:18,540 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 15:55:18,691 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 15:55:24,219 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 15:55:24,526 [main] INFO utilities.DriverManager - *****Text: admin1@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (95bcd462888dd98c73a92a0c8aadd4c1)] -> xpath: //input[@class='email']]*****
+2020-05-02 15:55:24,586 [main] INFO utilities.DriverManager - *****Element By.id: Password found on the page*****
+2020-05-02 15:55:24,753 [main] INFO utilities.DriverManager - *****Text: admin123 entered in [[ChromeDriver: chrome on WINDOWS (95bcd462888dd98c73a92a0c8aadd4c1)] -> id: Password]*****
+2020-05-02 15:55:24,823 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@value='Log in'] clickable on the page*****
+2020-05-02 15:55:24,916 [main] INFO utilities.DriverManager - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (95bcd462888dd98c73a92a0c8aadd4c1)] -> xpath: //input[@value='Log in']]*****
+2020-05-02 15:55:27,016 [main] INFO utilities.DriverManager - *****Page loaded successfully*****
+2020-05-02 15:55:27,026 [main] INFO utilities.DriverManager - *****The Title of the page : Your store. Login*****
+2020-05-02 15:55:27,034 [main] INFO utilities.DriverManager - Scenario is failed : Login Data Driven
+2020-05-02 15:55:27,407 [main] INFO utilities.DriverManager - *****Screenshot captured successfully*****
+2020-05-02 16:01:12,939 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 16:01:13,004 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 16:01:19,538 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 16:01:20,209 [main] INFO utilities.DriverManager - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (646511b9d449e89dc6f064ed75f77c70)] -> xpath: //input[@class='email']]*****
+2020-05-02 16:01:20,273 [main] INFO utilities.DriverManager - *****Element By.id: Password found on the page*****
+2020-05-02 16:01:20,432 [main] INFO utilities.DriverManager - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (646511b9d449e89dc6f064ed75f77c70)] -> id: Password]*****
+2020-05-02 16:01:20,523 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@value='Log in'] clickable on the page*****
+2020-05-02 16:01:20,644 [main] INFO utilities.DriverManager - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (646511b9d449e89dc6f064ed75f77c70)] -> xpath: //input[@value='Log in']]*****
+2020-05-02 16:01:33,192 [main] INFO utilities.DriverManager - *****Page loaded successfully*****
+2020-05-02 16:01:33,204 [main] INFO utilities.DriverManager - *****The Title of the page : Dashboard / nopCommerce administration*****
+2020-05-02 16:01:33,370 [main] INFO utilities.DriverManager - *****Element By.cssSelector: a[href*='logout'] clickable on the page*****
+2020-05-02 16:01:33,398 [main] INFO utilities.DriverManager - *****Element clicked using javascript executor : [[ChromeDriver: chrome on WINDOWS (646511b9d449e89dc6f064ed75f77c70)] -> css selector: a[href*='logout']]*****
+2020-05-02 16:01:36,695 [main] INFO utilities.DriverManager - *****The Title of the page : *****
+2020-05-02 16:01:38,312 [main] INFO utilities.DriverManager - Scenario is passed : Login Data Driven
+2020-05-02 16:01:44,555 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 16:01:44,571 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 16:01:46,875 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 16:01:47,100 [main] INFO utilities.DriverManager - *****Text: admin1@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (6203793b65941139d4fd3b618b1ea504)] -> xpath: //input[@class='email']]*****
+2020-05-02 16:01:47,160 [main] INFO utilities.DriverManager - *****Element By.id: Password found on the page*****
+2020-05-02 16:01:47,335 [main] INFO utilities.DriverManager - *****Text: admin123 entered in [[ChromeDriver: chrome on WINDOWS (6203793b65941139d4fd3b618b1ea504)] -> id: Password]*****
+2020-05-02 16:01:47,395 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@value='Log in'] clickable on the page*****
+2020-05-02 16:01:47,488 [main] INFO utilities.DriverManager - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (6203793b65941139d4fd3b618b1ea504)] -> xpath: //input[@value='Log in']]*****
+2020-05-02 16:01:48,720 [main] INFO utilities.DriverManager - *****Page loaded successfully*****
+2020-05-02 16:01:48,732 [main] INFO utilities.DriverManager - *****The Title of the page : Your store. Login*****
+2020-05-02 16:01:48,744 [main] INFO utilities.DriverManager - Scenario is failed : Login Data Driven
+2020-05-02 16:01:49,471 [main] INFO utilities.DriverManager - *****Screenshot captured successfully*****
+2020-05-02 16:06:01,396 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 16:06:01,435 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 16:06:07,070 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 16:06:07,337 [main] INFO utilities.DriverManager - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (9f2c4cb872fe6763a96477348b75e4a8)] -> xpath: //input[@class='email']]*****
+2020-05-02 16:06:07,408 [main] INFO utilities.DriverManager - *****Element By.id: Password found on the page*****
+2020-05-02 16:06:07,574 [main] INFO utilities.DriverManager - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (9f2c4cb872fe6763a96477348b75e4a8)] -> id: Password]*****
+2020-05-02 16:06:07,647 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@value='Log in'] clickable on the page*****
+2020-05-02 16:06:07,741 [main] INFO utilities.DriverManager - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (9f2c4cb872fe6763a96477348b75e4a8)] -> xpath: //input[@value='Log in']]*****
+2020-05-02 16:06:12,827 [main] INFO utilities.DriverManager - *****Page loaded successfully*****
+2020-05-02 16:06:12,852 [main] INFO utilities.DriverManager - *****The Title of the page : Dashboard / nopCommerce administration*****
+2020-05-02 16:06:12,978 [main] INFO utilities.DriverManager - *****Element By.cssSelector: a[href*='logout'] clickable on the page*****
+2020-05-02 16:06:12,999 [main] INFO utilities.DriverManager - *****Element clicked using javascript executor : [[ChromeDriver: chrome on WINDOWS (9f2c4cb872fe6763a96477348b75e4a8)] -> css selector: a[href*='logout']]*****
+2020-05-02 16:06:16,048 [main] INFO utilities.DriverManager - *****The Title of the page : Your store. Login*****
+2020-05-02 16:06:17,330 [main] INFO utilities.DriverManager - Scenario is passed : Login Data Driven
+2020-05-02 16:06:24,803 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 16:06:24,812 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 16:06:30,876 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 16:06:31,120 [main] INFO utilities.DriverManager - *****Text: admin1@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (fd97514c370f3d0b19c9a5851044de55)] -> xpath: //input[@class='email']]*****
+2020-05-02 16:06:31,182 [main] INFO utilities.DriverManager - *****Element By.id: Password found on the page*****
+2020-05-02 16:06:31,352 [main] INFO utilities.DriverManager - *****Text: admin123 entered in [[ChromeDriver: chrome on WINDOWS (fd97514c370f3d0b19c9a5851044de55)] -> id: Password]*****
+2020-05-02 16:06:31,426 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@value='Log in'] clickable on the page*****
+2020-05-02 16:06:31,517 [main] INFO utilities.DriverManager - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (fd97514c370f3d0b19c9a5851044de55)] -> xpath: //input[@value='Log in']]*****
+2020-05-02 16:06:33,827 [main] INFO utilities.DriverManager - *****Page loaded successfully*****
+2020-05-02 16:06:33,842 [main] INFO utilities.DriverManager - *****The Title of the page : Your store. Login*****
+2020-05-02 16:06:33,853 [main] INFO utilities.DriverManager - Scenario is failed : Login Data Driven
+2020-05-02 16:06:34,471 [main] INFO utilities.DriverManager - *****Screenshot captured successfully*****
+2020-05-02 16:13:17,301 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 16:13:17,459 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 16:13:26,682 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 16:13:28,073 [main] INFO utilities.DriverManager - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (b9d1486de798770eb6de7bef3a2401c6)] -> xpath: //input[@class='email']]*****
+2020-05-02 16:13:28,196 [main] INFO utilities.DriverManager - *****Element By.id: Password found on the page*****
+2020-05-02 16:13:28,368 [main] INFO utilities.DriverManager - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (b9d1486de798770eb6de7bef3a2401c6)] -> id: Password]*****
+2020-05-02 16:13:28,509 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@value='Log in'] clickable on the page*****
+2020-05-02 16:13:28,659 [main] INFO utilities.DriverManager - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (b9d1486de798770eb6de7bef3a2401c6)] -> xpath: //input[@value='Log in']]*****
+2020-05-02 16:13:36,867 [main] INFO utilities.DriverManager - *****Page loaded successfully*****
+2020-05-02 16:13:36,877 [main] INFO utilities.DriverManager - *****The Title of the page : Dashboard / nopCommerce administration*****
+2020-05-02 16:13:36,988 [main] INFO utilities.DriverManager - *****Element By.cssSelector: a[href*='logout'] clickable on the page*****
+2020-05-02 16:13:37,014 [main] INFO utilities.DriverManager - *****Element clicked using javascript executor : [[ChromeDriver: chrome on WINDOWS (b9d1486de798770eb6de7bef3a2401c6)] -> css selector: a[href*='logout']]*****
+2020-05-02 16:13:40,125 [main] INFO utilities.DriverManager - *****The Title of the page : Your store. Login*****
+2020-05-02 16:13:41,335 [main] INFO utilities.DriverManager - Scenario is passed : Login Data Driven
+2020-05-02 16:13:46,770 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 16:13:46,795 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 16:13:50,216 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 16:13:50,454 [main] INFO utilities.DriverManager - *****Text: admin1@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (9adc7bfaed85cc7fe549d2d1223bb718)] -> xpath: //input[@class='email']]*****
+2020-05-02 16:13:50,523 [main] INFO utilities.DriverManager - *****Element By.id: Password found on the page*****
+2020-05-02 16:13:55,726 [main] INFO utilities.DriverManager - *****Text: admin123 entered in [[ChromeDriver: chrome on WINDOWS (9adc7bfaed85cc7fe549d2d1223bb718)] -> id: Password]*****
+2020-05-02 16:13:55,810 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@value='Log in'] clickable on the page*****
+2020-05-02 16:13:55,919 [main] INFO utilities.DriverManager - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (9adc7bfaed85cc7fe549d2d1223bb718)] -> xpath: //input[@value='Log in']]*****
+2020-05-02 16:13:57,157 [main] INFO utilities.DriverManager - *****Page loaded successfully*****
+2020-05-02 16:13:57,170 [main] INFO utilities.DriverManager - *****The Title of the page : Your store. Login*****
+2020-05-02 16:13:57,189 [main] INFO utilities.DriverManager - Scenario is failed : Login Data Driven
+2020-05-02 16:13:57,832 [main] INFO utilities.DriverManager - *****Screenshot captured successfully*****
+2020-05-02 16:20:56,911 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 16:20:56,939 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 16:21:03,093 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 16:21:03,330 [main] INFO utilities.DriverManager - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (a09b8a4300796b328e65dd93ba7a9018)] -> xpath: //input[@class='email']]*****
+2020-05-02 16:21:03,403 [main] INFO utilities.DriverManager - *****Element By.id: Password found on the page*****
+2020-05-02 16:21:03,568 [main] INFO utilities.DriverManager - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (a09b8a4300796b328e65dd93ba7a9018)] -> id: Password]*****
+2020-05-02 16:21:03,646 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@value='Log in'] clickable on the page*****
+2020-05-02 16:21:03,738 [main] INFO utilities.DriverManager - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (a09b8a4300796b328e65dd93ba7a9018)] -> xpath: //input[@value='Log in']]*****
+2020-05-02 16:21:11,626 [main] INFO utilities.DriverManager - *****Page loaded successfully*****
+2020-05-02 16:21:11,634 [main] INFO utilities.DriverManager - *****The Title of the page : Dashboard / nopCommerce administration*****
+2020-05-02 16:21:11,732 [main] INFO utilities.DriverManager - *****Element By.cssSelector: a[href*='logout'] clickable on the page*****
+2020-05-02 16:21:11,766 [main] INFO utilities.DriverManager - *****Element clicked using javascript executor : [[ChromeDriver: chrome on WINDOWS (a09b8a4300796b328e65dd93ba7a9018)] -> css selector: a[href*='logout']]*****
+2020-05-02 16:21:15,853 [main] INFO utilities.DriverManager - *****The Title of the page : *****
+2020-05-02 16:21:18,019 [main] INFO utilities.DriverManager - Scenario is passed : Login Data Driven
+2020-05-02 16:21:22,626 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 16:21:22,642 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 16:21:26,388 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 16:21:26,613 [main] INFO utilities.DriverManager - *****Text: admin1@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (0e0c5832fa745102791d007e47a0b8a9)] -> xpath: //input[@class='email']]*****
+2020-05-02 16:21:26,668 [main] INFO utilities.DriverManager - *****Element By.id: Password found on the page*****
+2020-05-02 16:21:26,848 [main] INFO utilities.DriverManager - *****Text: admin123 entered in [[ChromeDriver: chrome on WINDOWS (0e0c5832fa745102791d007e47a0b8a9)] -> id: Password]*****
+2020-05-02 16:21:26,922 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@value='Log in'] clickable on the page*****
+2020-05-02 16:21:27,013 [main] INFO utilities.DriverManager - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (0e0c5832fa745102791d007e47a0b8a9)] -> xpath: //input[@value='Log in']]*****
+2020-05-02 16:21:29,179 [main] INFO utilities.DriverManager - *****Page loaded successfully*****
+2020-05-02 16:21:29,190 [main] INFO utilities.DriverManager - *****The Title of the page : Your store. Login*****
+2020-05-02 16:21:29,203 [main] INFO utilities.DriverManager - Scenario is failed : Login Data Driven
+2020-05-02 16:21:29,605 [main] INFO utilities.DriverManager - *****Screenshot captured successfully*****
+2020-05-02 16:23:04,699 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 16:23:04,730 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 16:23:07,250 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 16:23:07,492 [main] INFO utilities.DriverManager - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (ef5a97bf4c0a4da54ed5c5ee4d84e6cb)] -> xpath: //input[@class='email']]*****
+2020-05-02 16:23:07,564 [main] INFO utilities.DriverManager - *****Element By.id: Password found on the page*****
+2020-05-02 16:23:07,731 [main] INFO utilities.DriverManager - *****Text: admin1 entered in [[ChromeDriver: chrome on WINDOWS (ef5a97bf4c0a4da54ed5c5ee4d84e6cb)] -> id: Password]*****
+2020-05-02 16:23:07,799 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@value='Log in'] clickable on the page*****
+2020-05-02 16:23:07,898 [main] INFO utilities.DriverManager - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (ef5a97bf4c0a4da54ed5c5ee4d84e6cb)] -> xpath: //input[@value='Log in']]*****
+2020-05-02 16:23:10,048 [main] INFO utilities.DriverManager - *****Page loaded successfully*****
+2020-05-02 16:23:10,059 [main] INFO utilities.DriverManager - *****The Title of the page : Your store. Login*****
+2020-05-02 16:23:10,073 [main] INFO utilities.DriverManager - Scenario is failed : Successful Login with Valid Credentials
+2020-05-02 16:23:10,494 [main] INFO utilities.DriverManager - *****Screenshot captured successfully*****
+2020-05-02 16:26:41,075 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 16:26:41,121 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 16:26:44,795 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 16:26:45,023 [main] INFO utilities.DriverManager - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (368fb1779fa81334c6fc7a78d0bd7fdb)] -> xpath: //input[@class='email']]*****
+2020-05-02 16:27:25,181 [main] INFO utilities.DriverManager - *****Element By.id: Password1 not found on the page*****
+2020-05-02 16:27:25,593 [main] INFO utilities.DriverManager - *****Screenshot captured successfully*****
+2020-05-02 16:27:25,609 [main] INFO utilities.DriverManager - Scenario is failed : Successful Login with Valid Credentials
+2020-05-02 16:27:25,997 [main] INFO utilities.DriverManager - *****Screenshot captured successfully*****
+2020-05-02 16:29:04,609 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 16:29:04,641 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 16:29:08,449 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 16:29:08,707 [main] INFO utilities.DriverManager - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (b942ccf1b0d287864ffad74d7ab07b47)] -> xpath: //input[@class='email']]*****
+2020-05-02 16:29:49,029 [main] INFO utilities.DriverManager - *****Element By.id: Password1 not found on the page*****
+2020-05-02 16:29:49,418 [main] INFO utilities.DriverManager - *****Screenshot captured successfully*****
+2020-05-02 16:33:54,872 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 16:33:54,902 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 16:33:58,519 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 16:33:58,746 [main] INFO utilities.DriverManager - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (de85ed5218226a468f7c23397e0b8c50)] -> xpath: //input[@class='email']]*****
+2020-05-02 16:34:38,954 [main] INFO utilities.DriverManager - *****Element By.id: Password1 not found on the page*****
+2020-05-02 16:34:39,351 [main] INFO utilities.DriverManager - *****Screenshot captured successfully*****
+2020-05-02 16:42:37,761 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 16:42:37,786 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 16:42:44,868 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 16:42:45,117 [main] INFO utilities.DriverManager - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (49bf1c09ea5cc351c3b7d06235424335)] -> xpath: //input[@class='email']]*****
+2020-05-02 16:43:25,615 [main] INFO utilities.DriverManager - *****Element By.id: Password1 not found on the page*****
+2020-05-02 16:43:26,170 [main] INFO utilities.DriverManager - *****Screenshot captured successfully*****
+2020-05-02 17:33:25,326 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 17:33:25,435 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 17:33:36,403 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 17:33:37,670 [main] INFO utilities.DriverManager - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (f78b238b035395c94dedc37b54b46959)] -> xpath: //input[@class='email']]*****
+2020-05-02 17:34:17,910 [main] INFO utilities.DriverManager - *****Element By.id: Password1 not found on the page*****
+2020-05-02 17:34:18,427 [main] INFO utilities.DriverManager - *****Screenshot captured successfully*****
+2020-05-02 17:38:30,612 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 17:38:30,643 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 17:38:58,045 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 17:38:58,253 [main] INFO utilities.DriverManager - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (58597877d58447ee844c17b85b902d39)] -> xpath: //input[@class='email']]*****
+2020-05-02 17:39:38,712 [main] INFO utilities.DriverManager - *****Element By.id: Password1 not found on the page*****
+2020-05-02 17:39:39,286 [main] INFO utilities.DriverManager - *****Screenshot captured successfully*****
+2020-05-02 17:57:49,940 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 17:57:49,987 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 17:57:57,195 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 17:57:57,535 [main] INFO utilities.DriverManager - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (b5095721615b0c51986e1416b10fa75e)] -> xpath: //input[@class='email']]*****
+2020-05-02 17:57:57,610 [main] INFO utilities.DriverManager - *****Element By.id: Password found on the page*****
+2020-05-02 17:57:57,783 [main] INFO utilities.DriverManager - *****Text: admin entered in [[ChromeDriver: chrome on WINDOWS (b5095721615b0c51986e1416b10fa75e)] -> id: Password]*****
+2020-05-02 17:57:57,876 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@value='Log in'] clickable on the page*****
+2020-05-02 17:57:58,187 [main] INFO utilities.DriverManager - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (b5095721615b0c51986e1416b10fa75e)] -> xpath: //input[@value='Log in']]*****
+2020-05-02 17:58:13,460 [main] INFO utilities.DriverManager - *****Page loaded successfully*****
+2020-05-02 17:58:13,460 [main] INFO utilities.DriverManager - *****The Title of the page : Dashboard / nopCommerce administration*****
+2020-05-02 17:58:13,586 [main] INFO utilities.DriverManager - *****Element By.cssSelector: a[href*='logout'] clickable on the page*****
+2020-05-02 17:58:13,602 [main] INFO utilities.DriverManager - *****Element clicked using javascript executor : [[ChromeDriver: chrome on WINDOWS (b5095721615b0c51986e1416b10fa75e)] -> css selector: a[href*='logout']]*****
+2020-05-02 17:58:16,642 [main] INFO utilities.DriverManager - *****The Title of the page : Your store. Login*****
+2020-05-02 17:58:17,941 [main] INFO utilities.DriverManager - Scenario is passed : Login Data Driven
+2020-05-02 17:58:22,061 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 17:58:22,077 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 17:58:24,910 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 17:58:25,169 [main] INFO utilities.DriverManager - *****Text: admin1@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (847bcbf055a2c58e1fbfefb2bc9a61e0)] -> xpath: //input[@class='email']]*****
+2020-05-02 17:58:25,285 [main] INFO utilities.DriverManager - *****Element By.id: Password found on the page*****
+2020-05-02 17:58:25,459 [main] INFO utilities.DriverManager - *****Text: admin123 entered in [[ChromeDriver: chrome on WINDOWS (847bcbf055a2c58e1fbfefb2bc9a61e0)] -> id: Password]*****
+2020-05-02 17:58:25,530 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@value='Log in'] clickable on the page*****
+2020-05-02 17:58:25,635 [main] INFO utilities.DriverManager - *****Element clicked : [[ChromeDriver: chrome on WINDOWS (847bcbf055a2c58e1fbfefb2bc9a61e0)] -> xpath: //input[@value='Log in']]*****
+2020-05-02 17:58:26,631 [main] INFO utilities.DriverManager - *****Page loaded successfully*****
+2020-05-02 17:58:26,640 [main] INFO utilities.DriverManager - *****The Title of the page : Your store. Login*****
+2020-05-02 17:58:26,651 [main] INFO utilities.DriverManager - Scenario is failed : Login Data Driven
+2020-05-02 17:58:27,236 [main] INFO utilities.DriverManager - *****Screenshot captured successfully*****
+2020-05-02 18:01:46,880 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 18:01:46,908 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 18:01:50,327 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 18:01:50,568 [main] INFO utilities.DriverManager - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (b12527e17fdfed6739502bd3878426f3)] -> xpath: //input[@class='email']]*****
+2020-05-02 18:02:31,014 [main] INFO utilities.DriverManager - *****Element By.id: Password1 not found on the page*****
+2020-05-02 18:02:31,029 [main] INFO utilities.DriverManager - Scenario is failed : Successful Login with Valid Credentials
+2020-05-02 18:02:31,439 [main] INFO utilities.DriverManager - *****Screenshot captured successfully*****
+2020-05-02 18:14:55,292 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 18:14:55,380 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 18:15:02,077 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 18:15:02,740 [main] INFO utilities.DriverManager - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (0e666338936d30e9efd1de8c50ab4937)] -> xpath: //input[@class='email']]*****
+2020-05-02 18:15:43,064 [main] INFO utilities.DriverManager - *****Element By.id: Password1 not found on the page*****
+2020-05-02 18:15:43,070 [main] INFO utilities.DriverManager - Scenario is failed : Successful Login with Valid Credentials
+2020-05-02 18:15:43,507 [main] INFO utilities.DriverManager - *****Screenshot captured successfully*****
+2020-05-02 18:19:40,388 [main] INFO utilities.DriverManager - *****Browser launched : chrome*****
+2020-05-02 18:19:40,435 [main] INFO utilities.DriverManager - *****Launched url : http://admin-demo.nopcommerce.com/login*****
+2020-05-02 18:19:45,501 [main] INFO utilities.DriverManager - *****Element By.xpath: //input[@class='email'] found on the page*****
+2020-05-02 18:19:45,760 [main] INFO utilities.DriverManager - *****Text: admin@yourstore.com entered in [[ChromeDriver: chrome on WINDOWS (7841cf8a552679a54395c90ee180e920)] -> xpath: //input[@class='email']]*****
+2020-05-02 18:20:26,270 [main] INFO utilities.DriverManager - *****Element By.id: Password1 not found on the page*****
+2020-05-02 18:20:26,270 [main] INFO utilities.DriverManager - Scenario is failed : Successful Login with Valid Credentials
+2020-05-02 18:20:26,818 [main] INFO utilities.DriverManager - *****Screenshot captured successfully*****

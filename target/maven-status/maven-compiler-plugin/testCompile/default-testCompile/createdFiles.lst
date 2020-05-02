@@ -1,10 +1,12 @@
+TestRunner\TestRun.class
+utilities\DriverManager.class
+utilities\JsonReader.class
+stepDefinitions\Steps.class
+utilities\PageActions$1.class
 stepDefinitions\Hooks.class
 utilities\PageActions.class
 pageObjects\LoginPage.class
-TestRunner\TestRun.class
 pageObjects\SearchCustomerPage.class
 utilities\ExtentReportManager.class
 stepDefinitions\BaseClass.class
-stepDefinitions\Steps.class
 pageObjects\AddCustomerPage.class
-utilities\PageActions$1.class

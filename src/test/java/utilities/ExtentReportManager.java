@@ -28,7 +28,7 @@ public class ExtentReportManager implements ITestListener {
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());//time stamp
 		String repName="Test-Report-"+timeStamp+".html";
 				
-		htmlReporter=new ExtentHtmlReporter(System.getProperty("user.dir")+ "/ExtentReports/"+repName);//specify location of the report
+		htmlReporter=new ExtentHtmlReporter(System.getProperty("user.dir")+ "/test-output/ExtentReports/"+repName);//specify location of the report
 				
 		htmlReporter.config().setDocumentTitle("My Test Automation Framework Report"); // Tile of report
 		htmlReporter.config().setReportName("Automation Run Report"); // name of the report
@@ -64,7 +64,7 @@ public class ExtentReportManager implements ITestListener {
 		test.log(Status.FAIL, "TEST CASE FAILED IS " + result.getThrowable()); // to add error/exception in extent report
 
 		//String screenshotPath=System.getProperty("user.dir")+"\\Screenshots\\"+result.getName()+".png";
-		String screenshotPath=System.getProperty("user.dir")+"\\Screenshots\\"+BaseClass.screenshotname + ".png";
+		String screenshotPath=System.getProperty("user.dir")+"\\test-output\\Screenshots\\"+BaseClass.screenshotname + ".png";
 		try {
 			test.addScreenCaptureFromPath(screenshotPath);// adding screen shot
 		} catch (IOException e) {
@@ -74,7 +74,7 @@ public class ExtentReportManager implements ITestListener {
 	
 	public void onTestSkipped(ITestResult result)
 	{
-		test=extent.createTest(result.getName()); // create new entry in th report
+		test=extent.createTest(result.getName()); // create new entry in the report
 		test.log(Status.SKIP, "Test Case SKIPPED IS " + result.getName());
 	}
 	
