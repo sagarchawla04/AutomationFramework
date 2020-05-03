@@ -1,18 +1,19 @@
 package stepDefinitions;
 
 import java.io.IOException;
-
-import org.junit.Assert;
 import org.openqa.selenium.By;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.testng.Assert;
 import pageObjects.AddCustomerPage;
 import pageObjects.LoginPage;
 import pageObjects.SearchCustomerPage;
 import utilities.JsonReader;
+import utilities.PageActions;
 
 public class Steps extends BaseClass {
+    public PageActions pageActions = new PageActions();
 
     @Given("User Launch Chrome browser")
     public void user_Launch_Chrome_browser() throws IOException {
@@ -60,7 +61,7 @@ public class Steps extends BaseClass {
     public void user_can_view_Dashboad() {
         addCust = new AddCustomerPage(driver);
         addCust.verifylogin();
-        Assert.assertEquals("Dashboard / nopCommerce administration", addCust.getPageTitle());
+        Assert.assertEquals( pageActions.getPageTitle(),"Dashboard / nopCommerce administration");
     }
 
     @When("User click on customers Menu")
@@ -74,16 +75,13 @@ public class Steps extends BaseClass {
     }
 
     @When("click on Add new button")
-    public void click_on_Add_new_button() throws InterruptedException {
-        Thread.sleep(2000);
+    public void click_on_Add_new_button() {
         addCust.clickOnAddnew();
-        Thread.sleep(2000);
     }
 
     @Then("User can view Add new customer page")
     public void user_can_view_Add_new_customer_page() {
-        Assert.assertEquals("Add a new customer / nopCommerce administration", addCust.getPageTitle());
-
+        Assert.assertEquals(pageActions.getPageTitle(),"Add a new customer / nopCommerce administration");
     }
 
     @When("User enter customer info")
@@ -95,8 +93,6 @@ public class Steps extends BaseClass {
         // The customer cannot be in both 'Guests' and 'Registered' customer roles
         // Add the customer to 'Guests' or 'Registered' customer role
         addCust.setCustomerRoles("Guest");
-        Thread.sleep(3000);
-
         addCust.setManagerOfVendor("Vendor 2");
         addCust.setGender("Male");
         addCust.setFirstName("Pavan");
@@ -104,18 +100,16 @@ public class Steps extends BaseClass {
         addCust.setDob("7/05/1985"); // Format: D/MM/YYY
         addCust.setCompanyName("busyQA");
         addCust.setAdminContent("This is for testing.........");
-
     }
 
     @When("click on Save button")
-    public void click_on_Save_button() throws InterruptedException {
+    public void click_on_Save_button() {
         addCust.clickOnSave();
-        Thread.sleep(2000);
     }
 
     @Then("User can view confirmation message {string}")
     public void user_can_view_confirmation_message(String successmessage) {
-        Assert.assertTrue(driver.findElement(By.tagName("body")).getText().contains(successmessage));
+        addCust.verifySuccessMessage(successmessage);
     }
 
     // Steps for searching a customer using email id
@@ -143,7 +137,6 @@ public class Steps extends BaseClass {
     public void enter_customer_FirstName() {
         searchCust = new SearchCustomerPage(driver);
         searchCust.setFirstName("Victoria");
-
     }
 
     @When("Enter customer LastName")

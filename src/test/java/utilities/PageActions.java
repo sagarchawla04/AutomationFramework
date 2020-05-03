@@ -8,6 +8,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import stepDefinitions.BaseClass;
@@ -228,5 +229,31 @@ public class PageActions extends BaseClass {
             builder.sendKeys(new CharSequence[]{Keys.PAGE_DOWN}).perform();
         }
         logger.info("***** Key " + key + " hit from the keyboard*****");
+    }
+
+    /**
+     * Method is to select the dropdown using value
+     */
+    public void selectValueFromDropDownByValue(By by, String value) {
+        try {
+            Select select = new Select(findObject(by));
+            select.selectByValue(value);
+            logger.info("***** Dropdown value " + value + " selected*****");
+        }catch (Exception e){
+            Assert.fail("Test failed with exception ---> " + e.toString());
+        }
+    }
+
+    /**
+     * Method is to select the dropdown using text
+     */
+    public void selectValueFromDropDownByText(By by, String value) {
+        try {
+            Select select = new Select(findObject(by));
+            select.selectByVisibleText(value);
+            logger.info("***** Dropdown value " + value + " selected*****");
+        }catch (Exception e){
+            Assert.fail("Test failed with exception ---> " + e.toString());
+        }
     }
 }

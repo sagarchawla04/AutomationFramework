@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Command line test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat May 02 18:19:28 IST 2020</td>
+<td>Started on:</td><td>Sun May 03 00:08:48 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>59 seconds (59238 ms)</td>
+<tr><td>Total time:</td><td>139 seconds (139631 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,29 +75,56 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful Login with Valid Credentials", "Login to application"</td>
-<td><div><pre>java.lang.AssertionError: Test failed with exception ---&gt; org.openqa.selenium.TimeoutException: Supplied function might have stalled
-Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
-System info: host: &apos;SAGARCHAWLA-PC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_211&apos;
-Driver info: driver.version: unknown
-	at utilities.PageActions.findObject(PageActions.java:156)
-	at utilities.PageActions.setText(PageActions.java:142)
-	at pageObjects.LoginPage.setPassword(LoginPage.java:34)
-	at stepDefinitions.Steps.user_enters_Email_as_and_Password_as(Steps.java:33)
-	at ?.User enters Email as &quot;admin@yourstore.com&quot; and Password as &quot;admin&quot;(file:Features/Login.feature:7)
-... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace18906506", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace18906506'><pre>java.lang.AssertionError: Test failed with exception ---&gt; org.openqa.selenium.TimeoutException: Supplied function might have stalled
-Build info: version: &apos;4.0.0-alpha-5&apos;, revision: &apos;b3a0d621cc&apos;
-System info: host: &apos;SAGARCHAWLA-PC&apos;, ip: &apos;192.168.1.102&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_211&apos;
-Driver info: driver.version: unknown
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login Data Driven", "Login to application"</td>
+<td><div><pre>java.lang.AssertionError: expected [Your store. Login] but found [Dashboard / nopCommerce administration]
+	at pageObjects.LoginPage.verifyPageTitle(LoginPage.java:51)
+	at stepDefinitions.Steps.page_Title_should_be(Steps.java:44)
+	at ?.Page Title should be &quot;Dashboard / nopCommerce administration&quot;(file:Features/Login.feature:20)
+... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2811830", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2811830'><pre>java.lang.AssertionError: expected [Your store. Login] but found [Dashboard / nopCommerce administration]
 	at org.testng.Assert.fail(Assert.java:97)
-	at utilities.PageActions.findObject(PageActions.java:156)
-	at utilities.PageActions.setText(PageActions.java:142)
-	at pageObjects.LoginPage.setPassword(LoginPage.java:34)
-	at stepDefinitions.Steps.user_enters_Email_as_and_Password_as(Steps.java:33)
-	at ?.User enters Email as &quot;admin@yourstore.com&quot; and Password as &quot;admin&quot;(file:Features/Login.feature:7)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at pageObjects.LoginPage.verifyPageTitle(LoginPage.java:51)
+	at stepDefinitions.Steps.page_Title_should_be(Steps.java:44)
+	at ?.Page Title should be &quot;Dashboard / nopCommerce administration&quot;(file:Features/Login.feature:20)
 </pre></div></td>
-<td>58</td>
+<td>10</td>
+<td>TestRunner.TestRun@1d6a08</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add a new Customer", "Customers"</td>
+<td></td>
+<td>35</td>
+<td>TestRunner.TestRun@1d6a08</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search Customer by EMailID", "Customers"</td>
+<td></td>
+<td>27</td>
+<td>TestRunner.TestRun@1d6a08</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search Customer by Name", "Customers"</td>
+<td></td>
+<td>25</td>
+<td>TestRunner.TestRun@1d6a08</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful Login with Valid Credentials", "Login to application"</td>
+<td></td>
+<td>18</td>
+<td>TestRunner.TestRun@1d6a08</td></tr>
+<tr>
+<td title='TestRunner.TestRun.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRun<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login Data Driven", "Login to application"</td>
+<td></td>
+<td>20</td>
 <td>TestRunner.TestRun@1d6a08</td></tr>
 </table><p>
 </body>

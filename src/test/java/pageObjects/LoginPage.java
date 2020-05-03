@@ -18,7 +18,7 @@ public class LoginPage {
     }
 
     By txtEmail1 = By.xpath("//input[@class='email']");
-    By txtPassword1 = By.id("Password1");
+    By txtPassword1 = By.id("Password");
     By btnLogin1 = By.xpath("//input[@value='Log in']");
     By lnkLogout1 = By.cssSelector("a[href*='logout']");
 
