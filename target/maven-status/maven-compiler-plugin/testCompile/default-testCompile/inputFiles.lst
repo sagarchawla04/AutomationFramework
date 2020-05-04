@@ -5,6 +5,7 @@ D:\AutomationFramework\AutomationFramework\src\test\java\utilities\PageActions.j
 D:\AutomationFramework\AutomationFramework\src\test\java\stepDefinitions\BaseClass.java
 D:\AutomationFramework\AutomationFramework\src\test\java\utilities\DriverManager.java
 D:\AutomationFramework\AutomationFramework\src\test\java\pageObjects\AddCustomerPage.java
+D:\AutomationFramework\AutomationFramework\src\test\java\utilities\Encryption.java
 D:\AutomationFramework\AutomationFramework\src\test\java\stepDefinitions\Steps.java
 D:\AutomationFramework\AutomationFramework\src\test\java\pageObjects\SearchCustomerPage.java
 D:\AutomationFramework\AutomationFramework\src\test\java\stepDefinitions\Hooks.java

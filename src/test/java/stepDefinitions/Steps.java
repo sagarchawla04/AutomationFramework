@@ -1,6 +1,8 @@
 package stepDefinitions;
 
 import java.io.IOException;
+
+import io.cucumber.java.en.And;
 import org.openqa.selenium.By;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -9,11 +11,13 @@ import org.testng.Assert;
 import pageObjects.AddCustomerPage;
 import pageObjects.LoginPage;
 import pageObjects.SearchCustomerPage;
+import utilities.Encryption;
 import utilities.JsonReader;
 import utilities.PageActions;
 
 public class Steps extends BaseClass {
     public PageActions pageActions = new PageActions();
+    public String jsonPath = null;
 
     @Given("User Launch Chrome browser")
     public void user_Launch_Chrome_browser() throws IOException {
@@ -28,10 +32,15 @@ public class Steps extends BaseClass {
 
     @When("User enters Email as {string} and Password as {string}")
     public void user_enters_Email_as_and_Password_as(String email, String password) {
-        //String email1 = JsonReader.getValueByJPath("./src/test/java/Resources/test.json","/batters/batter[1]/email");
-        //String password1 = JsonReader.getValueByJPath("./src/test/java/Resources/test.json","/batters/batter[1]/password");
         lp.setUserName(email);
-        lp.setPassword(password);
+        lp.setPassword(Encryption.decryptPassword(password));
+    }
+
+    @And("user enters the login credentials from {string} file")
+    public void userEntersTheLoginCredentialsFromFile(String filename) {
+        jsonPath = "./src/test/java/Resources/" + filename;
+        lp.setUserName(JsonReader.getValueByJPath(jsonPath, "/validLoginUsername"));
+        lp.setPassword(Encryption.decryptPassword(JsonReader.getValueByJPath(jsonPath, "/validLoginPassword")));
     }
 
     @When("Click on Login")
@@ -59,9 +68,10 @@ public class Steps extends BaseClass {
 
     @Then("User can view Dashboad")
     public void user_can_view_Dashboad() {
+        jsonPath = "./src/test/java/Resources/test.json";
         addCust = new AddCustomerPage(driver);
         addCust.verifylogin();
-        Assert.assertEquals( pageActions.getPageTitle(),"Dashboard / nopCommerce administration");
+        Assert.assertEquals(pageActions.getPageTitle(), JsonReader.getValueByJPath(jsonPath, "/expectedTitleAfterLogin"));
     }
 
     @When("User click on customers Menu")
@@ -81,25 +91,24 @@ public class Steps extends BaseClass {
 
     @Then("User can view Add new customer page")
     public void user_can_view_Add_new_customer_page() {
-        Assert.assertEquals(pageActions.getPageTitle(),"Add a new customer / nopCommerce administration");
+        jsonPath = "./src/test/java/Resources/test.json";
+        Assert.assertEquals(pageActions.getPageTitle(), JsonReader.getValueByJPath(jsonPath, "/expectedTitleOfAddCustomerPage"));
     }
 
     @When("User enter customer info")
     public void user_enter_customer_info() throws InterruptedException {
+        jsonPath = "./src/test/java/Resources/test.json";
         String email = pageActions.generateRamdomString() + "@gmail.com";
         addCust.setEmail(email);
-        addCust.setPassword("test123");
-        // Registered - default
-        // The customer cannot be in both 'Guests' and 'Registered' customer roles
-        // Add the customer to 'Guests' or 'Registered' customer role
-        addCust.setCustomerRoles("Guest");
-        addCust.setManagerOfVendor("Vendor 2");
-        addCust.setGender("Male");
-        addCust.setFirstName("Pavan");
-        addCust.setLastName("Kumar");
-        addCust.setDob("7/05/1985"); // Format: D/MM/YYY
-        addCust.setCompanyName("busyQA");
-        addCust.setAdminContent("This is for testing.........");
+        addCust.setPassword(JsonReader.getValueByJPath(jsonPath, "/addCustomer/customerInfo[0]/password"));
+        addCust.setCustomerRoles(JsonReader.getValueByJPath(jsonPath, "/addCustomer/customerInfo[0]/role"));
+        addCust.setManagerOfVendor(JsonReader.getValueByJPath(jsonPath, "/addCustomer/customerInfo[0]/vendorManager"));
+        addCust.setGender(JsonReader.getValueByJPath(jsonPath, "/addCustomer/customerInfo[0]/gender"));
+        addCust.setFirstName(JsonReader.getValueByJPath(jsonPath, "/addCustomer/customerInfo[0]/firstName"));
+        addCust.setLastName(JsonReader.getValueByJPath(jsonPath, "/addCustomer/customerInfo[0]/lastName"));
+        addCust.setDob(JsonReader.getValueByJPath(jsonPath, "/addCustomer/customerInfo[0]/dob")); // Format: D/MM/YYY
+        addCust.setCompanyName(JsonReader.getValueByJPath(jsonPath, "/addCustomer/customerInfo[0]/companyName"));
+        addCust.setAdminContent(JsonReader.getValueByJPath(jsonPath, "/addCustomer/customerInfo[0]/adminContent"));
     }
 
     @When("click on Save button")
@@ -107,17 +116,19 @@ public class Steps extends BaseClass {
         addCust.clickOnSave();
     }
 
-    @Then("User can view confirmation message {string}")
-    public void user_can_view_confirmation_message(String successmessage) {
-        addCust.verifySuccessMessage(successmessage);
+    @Then("User can view confirmation message")
+    public void user_can_view_confirmation_message() {
+        jsonPath = "./src/test/java/Resources/test.json";
+        addCust.verifySuccessMessage(JsonReader.getValueByJPath(jsonPath, "/addCustomerSuccessMessage"));
     }
 
     // Steps for searching a customer using email id
 
     @When("Enter customer EMail")
     public void enter_customer_EMail() {
+        jsonPath = "./src/test/java/Resources/test.json";
         searchCust = new SearchCustomerPage(driver);
-        searchCust.setEmail("victoria_victoria@nopCommerce.com");
+        searchCust.setEmail(JsonReader.getValueByJPath(jsonPath, "/searchCustomer[0]/email"));
     }
 
     @When("Click on search button")
@@ -127,7 +138,8 @@ public class Steps extends BaseClass {
 
     @Then("User should found Email in the Search table")
     public void user_should_found_Email_in_the_Search_table() {
-        boolean status = searchCust.searchCustomerByEmail("victoria_victoria@nopCommerce.com");
+        jsonPath = "./src/test/java/Resources/test.json";
+        boolean status = searchCust.searchCustomerByEmail(JsonReader.getValueByJPath(jsonPath, "/searchCustomer[0]/email"));
         Assert.assertTrue(status);
     }
 
@@ -135,18 +147,20 @@ public class Steps extends BaseClass {
 
     @When("Enter customer FirstName")
     public void enter_customer_FirstName() {
+        jsonPath = "./src/test/java/Resources/test.json";
         searchCust = new SearchCustomerPage(driver);
-        searchCust.setFirstName("Victoria");
+        searchCust.setFirstName(JsonReader.getValueByJPath(jsonPath, "/searchCustomer[1]/firstName"));
     }
 
     @When("Enter customer LastName")
     public void enter_customer_LastName() {
-        searchCust.setLastName("Terces");
+        jsonPath = "./src/test/java/Resources/test.json";
+        searchCust.setLastName(JsonReader.getValueByJPath(jsonPath, "/searchCustomer[1]/lastName"));
     }
 
     @Then("User should found Name in the Search table")
     public void user_should_found_Name_in_the_Search_table() {
-        Assert.assertTrue(searchCust.searchCustomerByName("Victoria Terces"));
+        jsonPath = "./src/test/java/Resources/test.json";
+        Assert.assertTrue(searchCust.searchCustomerByName(JsonReader.getValueByJPath(jsonPath, "/searchCustomer[1]/firstName") + " " + JsonReader.getValueByJPath(jsonPath, "/searchCustomer[1]/lastName")));
     }
-
 }
