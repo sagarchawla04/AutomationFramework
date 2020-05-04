@@ -1,15 +1,19 @@
 package utilities;
 
 import java.io.File;
+import java.time.Duration;
+import java.util.Iterator;
+import java.util.Set;
+import java.util.function.Function;
 
+import gherkin.Func;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
+import org.apache.tools.ant.taskdefs.Java;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.remote.internal.WebElementToJsonConverter;
+import org.openqa.selenium.support.ui.*;
 import org.testng.Assert;
 import stepDefinitions.BaseClass;
 
@@ -239,7 +243,7 @@ public class PageActions extends BaseClass {
             Select select = new Select(findObject(by));
             select.selectByValue(value);
             logger.info("***** Dropdown value " + value + " selected*****");
-        }catch (Exception e){
+        } catch (Exception e) {
             Assert.fail("Test failed with exception ---> " + e.toString());
         }
     }
@@ -252,8 +256,129 @@ public class PageActions extends BaseClass {
             Select select = new Select(findObject(by));
             select.selectByVisibleText(value);
             logger.info("***** Dropdown value " + value + " selected*****");
-        }catch (Exception e){
+        } catch (Exception e) {
             Assert.fail("Test failed with exception ---> " + e.toString());
         }
     }
+
+    /**
+     * Method is to do wait using fluent wait
+     */
+    public void waitUsingPollingIntervals(By by, long pollingFrequency) {
+        FluentWait<WebDriver> wait = new FluentWait<WebDriver>(driver)
+                //Wait for the condition
+                .withTimeout(Duration.ofSeconds(maximumTimeout))
+                //checking for its presenceonce every 5 seconds.
+                .pollingEvery(Duration.ofSeconds(pollingFrequency))
+                //Which will ignore the Exception
+                .ignoring(NoSuchElementException.class);
+
+        WebElement element = wait.until(new Function<WebDriver, WebElement>() {
+            @Override
+            public WebElement apply(WebDriver webDriver) {
+                return driver.findElement(by);
+            }
+        });
+    }
+
+    /**
+     * Method is to do double click on an element
+     */
+    public void doubleClick(By by) {
+        Actions action = new Actions(driver);
+        findObject(by);
+        action.moveToElement(driver.findElement(by)).doubleClick().perform();
+        logger.info("*****Double click on element :" + by.toString() + " done using actions class*****");
+    }
+
+    /**
+     * Method is to move to specific element and click
+     */
+    public void moveToElementAndClick(By by) {
+        Actions action = new Actions(driver);
+        findObject(by);
+        action.moveToElement(driver.findElement(by)).click().perform();
+        logger.info("*****Element :" + by.toString() + " clicked using actions class*****");
+    }
+
+    /**
+     * Method is open url in a separate tab
+     */
+    public void openUrlInSeparateTab(String url) {
+        String selectLinkOpenInNewTab = Keys.chord(new CharSequence[]{Keys.CONTROL, Keys.RETURN});
+        driver.findElement(By.linkText(url)).sendKeys(new CharSequence[]{selectLinkOpenInNewTab});
+        logger.info("*****URL :" + url + " opened in separate tab*****");
+    }
+
+    /**
+     * Method is wait for element to get disappeared from page
+     */
+    public void waitTillElementDisappears(By by) {
+        WebElement element = null;
+        try {
+            WebDriverWait wait = new WebDriverWait(driver, maximumTimeout);
+            wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+            wait.until(ExpectedConditions.invisibilityOfElementLocated(by));
+            logger.info("*****Element " + by.toString() + " disappeared from the page*****");
+        } catch (Exception e) {
+            Assert.fail("Test failed with exception ---> " + e.toString());
+        }
+    }
+
+    /**
+     * Method is get text from specific element
+     */
+    public String getText(By by) {
+        return findObject(by).getText();
+    }
+
+    /**
+     * Method is check the frame and switch to it
+     */
+    public WebDriver frameToBeAvailableAndSwitchtoIt(String framelocator) {
+        WebDriverWait wait = new WebDriverWait(driver, maximumTimeout);
+        return (WebDriver) (wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(framelocator)));
+    }
+
+    /**
+     * Method is check the frame and switch to it
+     */
+    public WebDriver frameToBeAvailableAndSwitchtoIt(By by) {
+        WebDriverWait wait = new WebDriverWait(driver, maximumTimeout);
+        return (WebDriver) (wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(by)));
+    }
+
+    /**
+     * Method is wait for alert
+     */
+    public void waitForAlert() {
+        new WebDriverWait(driver, maximumTimeout).until(ExpectedConditions.alertIsPresent());
+    }
+
+    /**
+     * Method is to switch to window
+     */
+    public void switchToWindow() {
+        String parentWindowHandle = driver.getWindowHandle();
+        Set<String> windowHandles = driver.getWindowHandles();
+        Iterator var1 = windowHandles.iterator();
+
+        while (var1.hasNext()) {
+            String window = (String) var1.next();
+            if (!window.equals(parentWindowHandle)) {
+                driver.switchTo().window(window);
+                logger.info("*****Switched to window..." + driver.getTitle());
+            }
+        }
+    }
+
+    /**
+     * Method is to scroll the page to specific element
+     */
+    public void scrollIntoViewElement(By by){
+        JavascriptExecutor js = (JavascriptExecutor)driver;
+        js.executeScript("arguments[0].scrollIntoView(true);", new Object[]{findObject(by)});
+        logger.info("*****Scrolled the page to element "+by.toString());
+    }
+
 }
