@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-TestRunner_TestRun">
-              <span class="suite-name border-failed">TestRunner.TestRun</span>
+              <span class="suite-name border-passed">TestRunner.TestRun</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-TestRunner_TestRun" class="hide-methods failed suite-TestRunner_TestRun"> (hide)</a> <!-- hide-methods failed suite-TestRunner_TestRun -->
-                      <a href="#" panel-name="suite-TestRunner_TestRun" class="show-methods failed suite-TestRunner_TestRun"> (show)</a> <!-- show-methods failed suite-TestRunner_TestRun -->
-                    </span>
-                    <div class="method-list-content failed suite-TestRunner_TestRun">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TestRunner_TestRun" title="TestRunner.TestRun" hash-for-method="runScenario(&quot;Login Data Driven&quot;, &quot;Login to application&quot;)">runScenario("Login Data Driven", "Login to application")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-TestRunner_TestRun -->
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -116,7 +102,12 @@
                     <div class="method-list-content passed suite-TestRunner_TestRun">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-TestRunner_TestRun" title="TestRunner.TestRun" hash-for-method="runScenario(&quot;Login Data Driven&quot;, &quot;Login to application&quot;)">runScenario("Login Data Driven", "Login to application")</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-TestRunner_TestRun" title="TestRunner.TestRun" hash-for-method="runScenario(&quot;Search Customer by EMailID&quot;, &quot;Customers&quot;)">runScenario("Search Customer by EMailID", "Customers")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestRunner_TestRun" title="TestRunner.TestRun" hash-for-method="runScenario(&quot;Add a new Customer&quot;, &quot;Customers&quot;)">runScenario("Add a new Customer", "Customers")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-TestRunner_TestRun -->
@@ -131,30 +122,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-TestRunner_TestRun" class="panel TestRunner_TestRun">
-          <div class="suite-TestRunner_TestRun-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">TestRunner.TestRun</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Login Data Driven&quot;, &quot;Login to application&quot;)">
-                  </a> <!-- runScenario("Login Data Driven", "Login to application") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Login Data Driven", "Login to application")</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Your store. Login] but found [Dashboard / nopCommerce administration]
-	at pageObjects.LoginPage.verifyPageTitle(LoginPage.java:51)
-	at stepDefinitions.Steps.page_Title_should_be(Steps.java:53)
-	at ✽.Page Title should be &quot;Dashboard / nopCommerce administration&quot;(file:Features/Login.feature:20)
-... Removed 5 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-TestRunner_TestRun-class-failed -->
           <div class="suite-TestRunner_TestRun-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -163,10 +130,20 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Login Data Driven&quot;, &quot;Login to application&quot;)">
-                  </a> <!-- runScenario("Login Data Driven", "Login to application") -->
+                  <a name="runScenario(&quot;Search Customer by EMailID&quot;, &quot;Customers&quot;)">
+                  </a> <!-- runScenario("Search Customer by EMailID", "Customers") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Login Data Driven", "Login to application")</span>
+                  <span class="parameters">("Search Customer by EMailID", "Customers")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Add a new Customer&quot;, &quot;Customers&quot;)">
+                  </a> <!-- runScenario("Add a new Customer", "Customers") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Add a new Customer", "Customers")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -236,16 +213,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'TestRunner.TestRun')
-data.setCell(0, 3, 33294);
+data.setCell(0, 3, 46375);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'TestRunner.TestRun')
-data.setCell(1, 3, 10543);
+data.setCell(1, 3, 27275);
 window.suiteTableData['TestRunner_TestRun']= { tableData: data, tableDiv: 'times-div-TestRunner_TestRun'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 43 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-TestRunner_TestRun">
               </div> <!-- times-div-TestRunner_TestRun -->
             </div> <!-- times-div -->
@@ -277,18 +254,16 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("Login Data Driven", "Login to application")</span>
-                <span class="method-start">265 ms</span>
+                <span class="method-name">runScenario("Add a new Customer", "Customers")</span>
+                <span class="method-start">328 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("Login Data Driven", "Login to application")</span>
-                <span class="method-start">33622 ms</span>
+                <span class="method-name">runScenario("Search Customer by EMailID", "Customers")</span>
+                <span class="method-start">46718 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">44228 ms</span>
+                <span class="method-start">73993 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

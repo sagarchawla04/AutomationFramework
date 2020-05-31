@@ -12,6 +12,7 @@ import utilities.PageActions;
 
 public class BaseClass {
 
+    // public static ThreadLocal<WebDriver> threadLocal = new ThreadLocal<WebDriver>();
     public static WebDriver driver;
     public LoginPage lp;
     public AddCustomerPage addCust;

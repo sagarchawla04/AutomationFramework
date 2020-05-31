@@ -7,7 +7,7 @@ Background: Below  are some common steps for all test cases in this feature file
 	And Click on Login 
 	Then User can view Dashboad 
 	
-@regression
+@sanity
 Scenario: Add a new Customer 
 	When User click on customers Menu 
 	And click on customers Menu Item 
@@ -18,7 +18,7 @@ Scenario: Add a new Customer
 	Then User can view confirmation message
 	And close browser 
 
-@regression
+@sanity
 Scenario: Search Customer by EMailID 
 	When User click on customers Menu 
 	And click on customers Menu Item 

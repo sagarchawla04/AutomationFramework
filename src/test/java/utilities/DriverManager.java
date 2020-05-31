@@ -1,5 +1,6 @@
 package utilities;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -18,6 +19,16 @@ import java.io.FileInputStream;
 import java.util.Properties;
 
 public class DriverManager extends BaseClass {
+    /*
+    public static WebDriver driver;
+    public DriverManager() {
+        this.driver=getDriver();
+    }
+
+    public static WebDriver getDriver()
+    {
+        return threadLocal.get();
+    }
 
     /**
      * Method is to load the properties of conig.properties
@@ -51,18 +62,23 @@ public class DriverManager extends BaseClass {
         if (browser.equals("firefox")) {
             System.setProperty("webdriver.gecko.driver", configProp.getProperty("firefoxpath"));
             driver = new FirefoxDriver();
+           // threadLocal.set(new FirefoxDriver());
         } else if (browser.equals("chrome")) {
             System.setProperty("webdriver.chrome.silentOutput", "true");
             DesiredCapabilities capabilities = getChromeDesiredCapabilities();
-            System.setProperty("webdriver.chrome.driver", configProp.getProperty("chromepath"));
+           //System.setProperty("webdriver.chrome.driver", configProp.getProperty("chromepath"));
+            WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver(capabilities);
+          //  threadLocal.set(new ChromeDriver(capabilities));
         } else if (browser.equals("ie")) {
             System.setProperty("webdriver.ie.driver", configProp.getProperty("iepath"));
             driver = new InternetExplorerDriver();
+            //threadLocal.set(new InternetExplorerDriver());
         }
-
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
+        //getDriver().manage().window().maximize();
+        //getDriver().manage().deleteAllCookies();
         logger.info("*****Browser launched : " + browser + "*****");
         return driver;
 

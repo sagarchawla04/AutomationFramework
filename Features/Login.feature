@@ -11,7 +11,7 @@ Feature: Login to application
     Then Page Title should be "Your store. Login"
     And close browser
 
-  @sanity
+  @regression
   Scenario Outline: Login Data Driven
     Given User Launch Chrome browser
     When User opens URL "http://admin-demo.nopcommerce.com/login"

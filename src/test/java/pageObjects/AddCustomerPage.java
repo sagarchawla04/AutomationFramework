@@ -24,7 +24,7 @@ public class AddCustomerPage {
     By btnAddnew = By.xpath("//a[@class='btn bg-blue']"); // Add new
     By txtEmail = By.xpath("//input[@id='Email']");
     By txtPassword = By.xpath("//input[@id='Password']");
-    By txtcustomerRoles = By.xpath("//div[@class='k-multiselect-wrap k-floatwrap']");
+    By txtcustomerRoles = By.xpath("//label[text()='Customer roles']//following::div[@class='k-multiselect-wrap k-floatwrap']");
     By drpmgrOfVendor = By.xpath("//*[@id='VendorId']");
     By rdMaleGender = By.id("Gender_Male");
     By rdFeMaleGender = By.id("Gender_Female");
